@@ -1,0 +1,21 @@
+{
+  "rule": "sigma_h maximizing fraction of replicates with circ SD in [15,30] min",
+  "sigma_h": 0.008,
+  "fraction_in_target": 50.0,
+  "median_circ_sd": 21.5,
+  "bootstrap_ci_95": [
+    20.6,
+    24.1
+  ],
+  "iqr": [
+    15.8,
+    32.3
+  ],
+  "frac_below_15": 22.0,
+  "frac_above_30": 28.0,
+  "mean_sleep_h": 8.48,
+  "median_transitions": 15.0,
+  "deferred4_excess_pct": 0.0,
+  "B": 200,
+  "seed": 42
+}

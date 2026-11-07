@@ -1,0 +1,96 @@
+{
+  "test1_exact_degeneracy": [
+    {
+      "rho": 1.0,
+      "s": 10.0,
+      "product": 10.0,
+      "choice_match": 1.0,
+      "V_final": [
+        0.6322406335798236,
+        0.425
+      ],
+      "W_final": [
+        0.6322406335798236,
+        0.425
+      ]
+    },
+    {
+      "rho": 2.0,
+      "s": 5.0,
+      "product": 10.0,
+      "choice_match": 1.0,
+      "V_final": [
+        1.2644812671596473,
+        0.85
+      ],
+      "W_final": [
+        0.6322406335798236,
+        0.425
+      ]
+    },
+    {
+      "rho": 0.5,
+      "s": 20.0,
+      "product": 10.0,
+      "choice_match": 1.0,
+      "V_final": [
+        0.3161203167899118,
+        0.2125
+      ],
+      "W_final": [
+        0.6322406335798236,
+        0.425
+      ]
+    },
+    {
+      "rho": 5.0,
+      "s": 2.0,
+      "product": 10.0,
+      "choice_match": 1.0,
+      "V_final": [
+        3.161203167899118,
+        2.125
+      ],
+      "W_final": [
+        0.6322406335798236,
+        0.425
+      ]
+    }
+  ],
+  "test2_different_product": {
+    "product1": 10.0,
+    "product2": 5.0,
+    "choice_match": 0.99
+  },
+  "test3_natural_vinit": [
+    {
+      "rho": 1.0,
+      "s": 10.0,
+      "product": 10.0,
+      "full_match": 1.0,
+      "late_match": 1.0
+    },
+    {
+      "rho": 2.0,
+      "s": 5.0,
+      "product": 10.0,
+      "full_match": 0.99,
+      "late_match": 1.0
+    },
+    {
+      "rho": 0.5,
+      "s": 20.0,
+      "product": 10.0,
+      "full_match": 0.94,
+      "late_match": 1.0
+    },
+    {
+      "rho": 5.0,
+      "s": 2.0,
+      "product": 10.0,
+      "full_match": 0.99,
+      "late_match": 1.0
+    }
+  ],
+  "conclusion": "Product rho*s determines steady-state drift_bias. With V_init scaled by rho: 100% choice match (exact degeneracy). With fixed V_init=0.5: ~99% match (transient broken, converges). Convention rho=1 resolves (rho, s) degeneracy alongside (rho, beta)."
+}

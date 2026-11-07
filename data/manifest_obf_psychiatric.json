@@ -1,0 +1,33 @@
+{
+  "dataset": "OBF-Psychiatric",
+  "source": "https://zenodo.org/records/13754984",
+  "doi": "10.1038/s41597-025-04384-3",
+  "license": "CC BY 4.0",
+  "citation": "OBF-Psychiatric, a motor activity dataset. Scientific Data 12 (2025).",
+  "date_fetched": "2026-08-04",
+  "zip_sha256": "5a9923ff1a732da0b045730c277d6cc809e1df799bc1ca5f3e052d78d461fae9",
+  "zip_size": 10372134,
+  "n_files": 175,
+  "files": [
+    "OBF-Psychiatric Dataset/",
+    "OBF-Psychiatric Dataset/adhd/",
+    "OBF-Psychiatric Dataset/adhd/adhd_1.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_108.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_11.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_13.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_14.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_19.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_2.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_20.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_21.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_26.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_3.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_41.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_43.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_45.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_48.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_49.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_5.csv",
+    "OBF-Psychiatric Dataset/adhd/adhd_51.csv"
+  ]
+}

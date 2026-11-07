@@ -1,0 +1,71 @@
+{
+  "procedure": "grid search alpha x beta, lambda=0, 500 trials, B=50, p_reward=0.75, vol=0.3, seed=42",
+  "calibrated": {
+    "alpha": 0.15,
+    "beta": 2.5,
+    "tau_m": 2.163,
+    "lam_default": 0.4898,
+    "lambda_crit": 0.9796
+  },
+  "observables": {
+    "win_stay": 0.7024,
+    "lose_switch": 0.5123,
+    "recovery_speed": 9.9696,
+    "choice_autocorr": 0.202
+  },
+  "targets": {
+    "win_stay": 0.7,
+    "recovery_speed": 10.0
+  },
+  "jacobian": {
+    "matrix": [
+      [
+        0.6249006040453531,
+        0.10489889939615527
+      ],
+      [
+        -45.44617445169923,
+        -2.7624309392264124
+      ]
+    ],
+    "det": 3.041009,
+    "nonsingular": true
+  },
+  "grid": {
+    "alphas": [
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4
+    ],
+    "betas": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0
+    ],
+    "n_points": 225
+  }
+}

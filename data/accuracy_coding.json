@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "description": "Accuracy coding rules per Confidence Database dataset",
+    "created": "2026-08-05",
+    "rule": "Fixed before any metric computation. Rule 1."
+  },
+  "rules": {
+    "binary_accuracy_column": {
+      "description": "Accuracy column with values 0/1",
+      "formula": "accuracy = Accuracy",
+      "datasets": 38
+    },
+    "stimulus_eq_response_binary": {
+      "description": "Stimulus and Response both in {0,1} or {-1,1}",
+      "formula": "accuracy = (Stimulus == Response)",
+      "datasets": 13
+    },
+    "stimulus_eq_response_2val": {
+      "description": "Stimulus and Response each have exactly 2 values",
+      "formula": "accuracy = (Stimulus == Response)",
+      "datasets": 23
+    },
+    "rescued_accuracy_col": {
+      "description": "Accuracy in non-standard column name",
+      "formula": "accuracy = Accuracy_col (AguilarLleyda) or Accuracy_1 (Matthews) or correct (Xue)"
+    },
+    "rescued_2afc_direction": {
+      "description": "2AFC with signed stimulus and binary response",
+      "formula": "accuracy = (Response == int(Stimulus > 0))"
+    }
+  },
+  "per_dataset": {
+    "AguilarLleyda_2018": {
+      "rule": "Accuracy_col column",
+      "readme": "Two sub-tasks; Accuracy_col for color task"
+    },
+    "AguilarLleyda_unpub": {
+      "rule": "Accuracy_col column",
+      "readme": "Same as AguilarLleyda_2018"
+    },
+    "Matthews_2018_exp1": {
+      "rule": "Accuracy_1 column",
+      "readme": "Dual-task; Accuracy_1 for central task"
+    },
+    "Matthews_2018_exp2": {
+      "rule": "Accuracy_1 column",
+      "readme": "Dual-task; Accuracy_1 for central task"
+    },
+    "Matthews_unpub": {
+      "rule": "Accuracy_1 column",
+      "readme": "Dual-task; Accuracy_1 for peripheral task"
+    },
+    "Xue_2024_Exp2": {
+      "rule": "correct column (lowercase)",
+      "readme": "Has \"correct\" column with 0/1"
+    },
+    "Xue_2024_Exp3": {
+      "rule": "correct column (lowercase)",
+      "readme": "Same as Xue_2024_Exp2"
+    },
+    "Gallagher_2019_Exp2": {
+      "rule": "Response 0/1, accuracy = (Response == int(Stimulus>0))",
+      "readme": "Motion discrimination, binary response, signed coherence"
+    }
+  },
+  "excluded_mechanical": {
+    "Akdogan_2017_Exp1": "Magnitude estimation (time duration), not 2AFC",
+    "Akdogan_2017_Exp2": "Magnitude estimation (time duration), not 2AFC",
+    "Duyan_2018_Exp1": "Counting task (beep sounds), not 2AFC",
+    "Duyan_2018_Exp2": "Counting task, not 2AFC",
+    "Duyan_2019": "Numerosity discrimination, >2 response options",
+    "Duyan_unpub_Exp1": "Length estimation (continuous), not 2AFC",
+    "Duyan_unpub_Exp2": "Length estimation (continuous), not 2AFC",
+    "Rausch_2014": "Continuous direction response (360 degrees), not 2AFC",
+    "Samaha_2017_exp1": "Continuous orientation response, not 2AFC",
+    "Samaha_2017_exp2": "Continuous orientation response, not 2AFC",
+    "Xiang_2021": "Numerosity estimation, not 2AFC",
+    "Yeon_2019": "4AFC (4 response categories)",
+    "Konishi_2019": "Dual-task with non-standard structure, coding ambiguous"
+  },
+  "excluded_judgment": {
+    "Wang_2017_Neuropsychologia": "Readme ambiguous: Response 1/2, Stimulus Level 1-7 fearfulness. Mapping between level and correct response not stated in readme.",
+    "Wang_2018": "Same protocol as Wang_2017. Same ambiguity."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "withdrawn": {
+    "mean_duration": "Withdrawn: sleep scoring algorithm not reproducible (D48, A15). Cole-Kripke inapplicable (device scale mismatch). No published algorithm for Actiwatch AW4 without recalibration."
+  },
+  "retained": {
+    "onset": {
+      "note": "Sleep onset not calibrated to these data \u2014 true prediction at fixed params.",
+      "model_onset_h": 23.0,
+      "data_values_h": {
+        "p15_nonzero": 23.9,
+        "fixed_50": 23.65,
+        "p15_night_nonzero": 0.01
+      },
+      "diff_range_min": [
+        -60,
+        -38
+      ]
+    },
+    "onset_variability": {
+      "note": "Structural gap: model lacks external variability sources.",
+      "data_range_min": [
+        103,
+        104
+      ],
+      "model_min": 21.5,
+      "ratio_range": [
+        4.8,
+        4.8
+      ]
+    },
+    "variance_decomposition": {
+      "note": "Data property, not model comparison. Within > between at all variants.",
+      "within_sd_range_h": [
+        2.15,
+        2.18
+      ],
+      "between_sd_range_h": [
+        0.98,
+        1.04
+      ],
+      "model_sd_h": 0.5
+    }
+  },
+  "robustness": {
+    "p15_nonzero": {
+      "n_subjects": 32,
+      "onset_circ_mean_h": 23.9,
+      "onset_circ_sd_min": 130,
+      "onset_within_sd_median_min": 103,
+      "within_individual_sd_h": 2.18,
+      "between_individual_sd_h": 1.01,
+      "within_over_between": 2.16,
+      "mean_duration_h": 7.92
+    },
+    "fixed_50": {
+      "n_subjects": 32,
+      "onset_circ_mean_h": 23.65,
+      "onset_circ_sd_min": 123,
+      "onset_within_sd_median_min": 103,
+      "within_individual_sd_h": 2.18,
+      "between_individual_sd_h": 0.98,
+      "within_over_between": 2.22,
+      "mean_duration_h": 8.47
+    },
+    "p15_night_nonzero": {
+      "n_subjects": 32,
+      "onset_circ_mean_h": 0.01,
+      "onset_circ_sd_min": 131,
+      "onset_within_sd_median_min": 104,
+      "within_individual_sd_h": 2.15,
+      "between_individual_sd_h": 1.04,
+      "within_over_between": 2.07,
+      "mean_duration_h": 7.79
+    }
+  },
+  "pre_registration_gap": "Specification required fixing the scoring algorithm but did not require specifying the device, activity count scale, or coefficient provenance. An algorithm is fully specified only together with the device it was calibrated on."
+}

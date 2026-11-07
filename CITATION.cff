@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "CPsych: Modular Computational Psychiatry Platform"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: Kirill
+    family-names: Vasilchenko
+    affiliation: "Holon Institute of Technology"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24015477"
+    description: "Zenodo archive of the submission-ready platform"
+repository-code: "https://github.com/NeuralPsy/cpsych"
+license: MIT
+version: "1.0"
+date-released: "2026-11-06"

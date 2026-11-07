@@ -1,0 +1,1278 @@
+{
+  "dataset": "Confidence Database",
+  "source": "https://osf.io/s46pr/",
+  "doi": "10.1038/s41562-019-0813-1",
+  "license": "CC-By Attribution 4.0 International",
+  "citation": "Rahnev, D. et al. The Confidence Database. Nat Hum Behav 4, 317-325 (2020).",
+  "date_fetched": "2026-08-05",
+  "n_datasets": 101,
+  "datasets": [
+    "AguilarLleyda_2018",
+    "AguilarLleyda_unpub",
+    "Akdogan_2017_Exp1",
+    "Akdogan_2017_Exp2",
+    "Bang_2019_Exp1",
+    "Bang_2019_Exp2",
+    "data_Bocheva_unpub_Expt1",
+    "data_Bocheva_unpub_Expt2",
+    "CalderTravis_unpub",
+    "Clark_2018",
+    "Clark_unpub",
+    "Denison_2018",
+    "Desender_2018_Exp1",
+    "Desender_2018_Exp2",
+    "Desender_2021_Cognit",
+    "Desender_2022_Exp1",
+    "Desender_2022_Exp1S",
+    "Desender_2022_Exp2B",
+    "Duyan_2018_Exp1",
+    "Duyan_2018_Exp2",
+    "Duyan_2019",
+    "Duyan_unpub_Exp1",
+    "Duyan_unpub_Exp2",
+    "Faivre_2018_JN",
+    "Filevich_unpub",
+    "Gajdos_2019",
+    "Gallagher_2019_Exp2",
+    "Gherman_2018",
+    "Haddara_2022_Expt1",
+    "Haddara_2022_Expt2",
+    "Hainguerlot_2018",
+    "Hainguerlot_unpub",
+    "Hellmann_2023_Exp1",
+    "Hellmann_2023_Exp2",
+    "Jachs_2015_Exp1",
+    "Jachs_2015_Exp2",
+    "Jachs_2015_Exp3",
+    "Konishi_2019",
+    "Kvam_2015_ch",
+    "Kvam_2015_nc",
+    "Law_unpub",
+    "Lo_unpub",
+    "Locke_2020",
+    "Maniscalco_2017_expt1",
+    "Maniscalco_2017_expt2",
+    "Maniscalco_2017_expt3",
+    "Maniscalco_2017_expt4",
+    "Martin_unpub",
+    "Massoni_unpub",
+    "Matthews_2018_exp1",
+    "Matthews_2018_exp2",
+    "Matthews_unpub",
+    "Mazor_2020",
+    "Mei_2019_Exp1",
+    "Mei_2019_Exp2",
+    "OHora_2017",
+    "OHora_unpub_1",
+    "OHora_unpub_2",
+    "Palser_2018",
+    "Prieto_unpub",
+    "Rahnev_2013",
+    "data_Rahnev_2021",
+    "Rausch_2014",
+    "Rausch_2016",
+    "Rausch_2018_Expt1",
+    "Rausch_2018_Expt2",
+    "Rausch_2020",
+    "Recht_unpub",
+    "Reyes_2015",
+    "Rouault_2018_Expt1",
+    "Rouault_2018_Expt2",
+    "Rouault_2019",
+    "Samaha_2016",
+    "Samaha_2017_exp1",
+    "Samaha_2017_exp2",
+    "Samaha_2017_exp3",
+    "Schmidt_2019_perception",
+    "Shekhar_2018",
+    "Shekhar_2021",
+    "Sherman_2016_JN",
+    "Sherman_2016_JOCN",
+    "Sherman_unpub_Expt1",
+    "Sherman_unpub_Expt2",
+    "Siedlecka_2019",
+    "Siedlecka_2021",
+    "Skora_2016",
+    "Song_2011",
+    "VanBoxtel_2019_Expt1",
+    "VanBoxtel_2019_Expt2",
+    "Wang_2017_Neuropsychologia",
+    "Wang_2018",
+    "Wierzchon_2014",
+    "Xiang_2021",
+    "Xue_2024_Exp2",
+    "Xue_2024_Exp3",
+    "Ye_2018",
+    "Yeon_2019",
+    "Yeon_unpub_Exp1",
+    "Yeon_unpub_Exp2",
+    "Zheng_2023",
+    "data_Zheng_2023_NOC"
+  ],
+  "files": [
+    {
+      "file": "readme_Law_unpub.txt",
+      "size": 2858,
+      "sha256": "58137b4010ef2de430d140adca9c07145bf824030cda9543a7de82a91aeead9b",
+      "url": "https://osf.io/download/zbux8/"
+    },
+    {
+      "file": "data_Matthews_2018_exp2.csv",
+      "size": 1945132,
+      "sha256": "b4da7e2dbdc4a443cf67cf8325d88f33b8ef2acb125e93ecfb92ecd7df8eb6bc",
+      "url": "https://osf.io/download/uav8s/"
+    },
+    {
+      "file": "readme_Matthews_2018_exp1.txt",
+      "size": 3696,
+      "sha256": "2dda41e325600893a328498a01a807a080be7751c44a3a2c9a9ab947673f4a62",
+      "url": "https://osf.io/download/yvkpx/"
+    },
+    {
+      "file": "data_Palser_2018.csv",
+      "size": 312212,
+      "sha256": "30ca6337846aa5265293a04b282b9618c3e233dea72de15acc6e5012e3f4f922",
+      "url": "https://osf.io/download/zyjxe/"
+    },
+    {
+      "file": "readme_OHora_unpub_1.txt",
+      "size": 3408,
+      "sha256": "46bd65ff94ed041e93aefe82153452ff512f79f521749d98c1320ff3c0f15110",
+      "url": "https://osf.io/download/hszcv/"
+    },
+    {
+      "file": "data_Desender_2022_Exp2B.csv",
+      "size": 1574801,
+      "sha256": "bccefa8901d6b6cb0bd3b5dda096095fd742fdcd576e6b6534721f4321d0dd2f",
+      "url": "https://osf.io/download/cm4zf/"
+    },
+    {
+      "file": "readme_Palser_2018.txt",
+      "size": 2054,
+      "sha256": "48a46b562a2e8335620a2575ba7f4ce08a6f199c57395ffa276273d210dd4d0b",
+      "url": "https://osf.io/download/qydvx/"
+    },
+    {
+      "file": "data_Wang_2017_Neuropsychologia.csv",
+      "size": 202120,
+      "sha256": "843bf7c7266325669938ea031f137c79d6548565bed450667b30d3fc09db58fb",
+      "url": "https://osf.io/download/8xftz/"
+    },
+    {
+      "file": "data_Mei_2019_Exp2.csv",
+      "size": 543701,
+      "sha256": "b937c2ed750434f5e6c1a3a02c9f007137cfb1cbf99461ce725d2f38954a9ff2",
+      "url": "https://osf.io/download/tne9g/"
+    },
+    {
+      "file": "readme_Xiang_2021.txt",
+      "size": 2031,
+      "sha256": "0da59eaa492b9fde55f46510508ad922da1dd8f7068833fdef5f44d026ba23b5",
+      "url": "https://osf.io/download/rpxzt/"
+    },
+    {
+      "file": "readme_Shekhar_2021.txt",
+      "size": 1222,
+      "sha256": "c2923f007d0c07f95194270d7ce26b107e6e2b0f0dcf361550e186592cb437cd",
+      "url": "https://osf.io/download/5ztpf/"
+    },
+    {
+      "file": "readme_Sherman_unpub_Expt2.txt",
+      "size": 2937,
+      "sha256": "93ae67bc8a89a506aae3533f749958239be63216956d3f12b0aee460f90bb7b4",
+      "url": "https://osf.io/download/8ydbu/"
+    },
+    {
+      "file": "readme_Samaha_2017_exp3.txt",
+      "size": 2353,
+      "sha256": "0d662efe1d95a622a27608343df3451a75513b1611e937387a3e78247bc13504",
+      "url": "https://osf.io/download/kr6w3/"
+    },
+    {
+      "file": "data_VanBoxtel_2019_Expt2.csv",
+      "size": 2963721,
+      "sha256": "0fd6d84be90a339c7c476aa8f72fb487a125db27840e4a421e97e1dfaf1a0cc4",
+      "url": "https://osf.io/download/z62fc/"
+    },
+    {
+      "file": "data_Wierzchon_2014.csv",
+      "size": 2134089,
+      "sha256": "b9c33b749c526abf9d3dfb187c100f26a7565dcb4c973e67338f7b1202a6b0c1",
+      "url": "https://osf.io/download/ue3mz/"
+    },
+    {
+      "file": "readme_Wang_2018.txt",
+      "size": 3358,
+      "sha256": "6572f8acf3cf2da72cbd4d4355726a5c11cc2c7a07c3816aa6fdd23578864562",
+      "url": "https://osf.io/download/pcxvd/"
+    },
+    {
+      "file": "data_Maniscalco_2017_expt1.csv",
+      "size": 1418078,
+      "sha256": "bea8bb585071dfbf1be2fc47fbda475d07d90dd0f5e55f51131871fb94272082",
+      "url": "https://osf.io/download/bq2pz/"
+    },
+    {
+      "file": "data_Wang_2018.csv",
+      "size": 373579,
+      "sha256": "302f702a11e1e2c5d29f7a16edfcb5f9801fdf7440cb119ef03f7f447eb8aa3f",
+      "url": "https://osf.io/download/nuy9a/"
+    },
+    {
+      "file": "readme_Jachs_2015_Exp3.txt",
+      "size": 2938,
+      "sha256": "a5a8747997952001a3ffe37d3d6e72a4fef1d8cc13a26539e8d78824fd91fd68",
+      "url": "https://osf.io/download/jb4w9/"
+    },
+    {
+      "file": "readme_AguilarLleyda_2018.txt",
+      "size": 6125,
+      "sha256": "3931333075f1b33c1962b67ebb2525b0bb627f05fe65fd981acb453c8f76da89",
+      "url": "https://osf.io/download/7m6ep/"
+    },
+    {
+      "file": "data_AguilarLleyda_unpub.csv",
+      "size": 1293037,
+      "sha256": "47a579f9939b3058d8b25604a8595dba6bba3f5ebad3b6b641df2f2cbac8a040",
+      "url": "https://osf.io/download/c3xhg/"
+    },
+    {
+      "file": "data_Song_2011.csv",
+      "size": 575945,
+      "sha256": "7c976019c8744fcc6bdb2a2e0b2a81793509b053c319a23e427078a933c20d3a",
+      "url": "https://osf.io/download/wh9q3/"
+    },
+    {
+      "file": "data_Sherman_unpub_Expt2.csv",
+      "size": 1229221,
+      "sha256": "9885c1858578028dc33e355304175cc1814dc20783b1644708d5cf9216f0d5c1",
+      "url": "https://osf.io/download/pyra4/"
+    },
+    {
+      "file": "data_Bang_2019_Exp2.csv",
+      "size": 1203731,
+      "sha256": "b7d9f0fed57d17b2abd745607f7f5ae3b20f04bc4d7cca54164aee5348c0afeb",
+      "url": "https://osf.io/download/5jkna/"
+    },
+    {
+      "file": "data_Desender_2022_Exp1S.csv",
+      "size": 1615960,
+      "sha256": "806dd6815f2a8e89738aef2febfb84ad07e5c30d4dcfd83ac5044092b521f49c",
+      "url": "https://osf.io/download/gynsp/"
+    },
+    {
+      "file": "readme_Desender_2021_Cognit.txt",
+      "size": 1727,
+      "sha256": "bf9b22a65c13a57baad306e47843c07378feb23a560399ad18e6606bc54a6633",
+      "url": "https://osf.io/download/gej9d/"
+    },
+    {
+      "file": "readme_Desender_2018_Exp2.txt",
+      "size": 1625,
+      "sha256": "dacbac2f49f1d0917a76b7f24e01421f7630a5cfa6135853fda01f9eefacbb6c",
+      "url": "https://osf.io/download/wnxgv/"
+    },
+    {
+      "file": "readme_Kvam_2015_nc.txt",
+      "size": 2101,
+      "sha256": "8642c57c452ab0758f64b53a8705d8c5776a3489bfaa7916913f448fbe7eefae",
+      "url": "https://osf.io/download/gtky7/"
+    },
+    {
+      "file": "readme_Massoni_unpub.txt",
+      "size": 1687,
+      "sha256": "ef5c3adc584dfc4e1ffbfac674c2278123aea5b42e766af3dfe52eb4ded1abf7",
+      "url": "https://osf.io/download/e287p/"
+    },
+    {
+      "file": "readme_Filevich_unpub.txt",
+      "size": 2627,
+      "sha256": "c5ebe758b83afb6a55a07bb10158b4e63239044713824d36f8aa21e692a4c534",
+      "url": "https://osf.io/download/4dhgu/"
+    },
+    {
+      "file": "readme_Siedlecka_2021.txt",
+      "size": 4541,
+      "sha256": "0b04d9932cbadf12a2a6d52c6aa603ad3924e215dc98ce688f9bd75bf93543fa",
+      "url": "https://osf.io/download/7j6ky/"
+    },
+    {
+      "file": "data_Samaha_2017_exp2.csv",
+      "size": 316842,
+      "sha256": "c57ddc36ec705f7a15ea4b115a69e57f6d3971464e90ccbec6db491ce7f9add6",
+      "url": "https://osf.io/download/ehv2d/"
+    },
+    {
+      "file": "readme_Mazor_2020.txt",
+      "size": 2752,
+      "sha256": "2fd961d77b72a703a9b702488be4f2eb1dad4f7f15201db17bfd76892782dd70",
+      "url": "https://osf.io/download/24sh9/"
+    },
+    {
+      "file": "data_Akdogan_2017_Exp1.csv",
+      "size": 289912,
+      "sha256": "eee2057e145831a452ec2f5f4474cc45c0161786ba705dc227ecd2460079f7bc",
+      "url": "https://osf.io/download/y53jq/"
+    },
+    {
+      "file": "readme_Matthews_unpub.txt",
+      "size": 4582,
+      "sha256": "19c699be66fe729d38c55015e8a226c1de517cf1ca514aeea73c1d775aa8f78e",
+      "url": "https://osf.io/download/p6fe3/"
+    },
+    {
+      "file": "data_Ye_2018.csv",
+      "size": 839951,
+      "sha256": "78a89f8aa8f29adc745cec3434886438284262c695ddae8852679c79688428d5",
+      "url": "https://osf.io/download/s38q6/"
+    },
+    {
+      "file": "readme_Song_2011.txt",
+      "size": 2421,
+      "sha256": "34728a4e0cf18544d4aa8908a8d3a479a7936922ba2dc5f64e475b9dc2a84cdd",
+      "url": "https://osf.io/download/egy7t/"
+    },
+    {
+      "file": "readme_Hainguerlot_2018.txt",
+      "size": 5946,
+      "sha256": "530a7409a5d7e231db462cb0e5faa87bc2cb013c1e0e0e68d4a566e1f4ef51d6",
+      "url": "https://osf.io/download/dwt3h/"
+    },
+    {
+      "file": "readme_Hellmann_2023_Exp2.txt",
+      "size": 1932,
+      "sha256": "659d508214baa36264e7f43d87435fc7d464c0814f3cf7bcd7d21e6f9c3f459e",
+      "url": "https://osf.io/download/stvpq/"
+    },
+    {
+      "file": "readme_Martin_unpub.txt",
+      "size": 4434,
+      "sha256": "f01f03b6bcb955be43e4ba3d45804fed13d56b1f331e3d5a5b221b8f52a8f7d7",
+      "url": "https://osf.io/download/cfg28/"
+    },
+    {
+      "file": "data_Reyes_2015.csv",
+      "size": 405709,
+      "sha256": "dc2db04e6e98f01f7c2b0af6c8cc759c8fc82c78dcc854b93d2cc40a091ca703",
+      "url": "https://osf.io/download/uvf6k/"
+    },
+    {
+      "file": "data_Rouault_2018_Expt1.csv",
+      "size": 2269948,
+      "sha256": "bebf313bfc9a00c510c3fa9eec651b78d7744d51e24ec5521678a523b54e212a",
+      "url": "https://osf.io/download/5hcuz/"
+    },
+    {
+      "file": "data_Rouault_2019.csv",
+      "size": 696837,
+      "sha256": "290bebd3773b6554aed1df53d1853002c8a47eaf7f5ed6e97a442c311bc05c5c",
+      "url": "https://osf.io/download/kxtc3/"
+    },
+    {
+      "file": "data_Filevich_unpub.csv",
+      "size": 378151,
+      "sha256": "f04d0d2755ac3a52637168c2d21a59ae5783bb9d3cd541cdd7c5f7579ce99116",
+      "url": "https://osf.io/download/hjvm6/"
+    },
+    {
+      "file": "readme_Xue_2024_Exp2.txt",
+      "size": 1952,
+      "sha256": "bb538ad4fbe9f8e99c6b240eb244fd1f34ae95fb5ecd29e150f458db06943be0",
+      "url": "https://osf.io/download/fvg7b/"
+    },
+    {
+      "file": "readme_CalderTravis_unpub.txt",
+      "size": 4089,
+      "sha256": "7db939c715c2a0cd67bd5896c6e66992dc80a4e8e5efca3e4acb9553201d6938",
+      "url": "https://osf.io/download/bmyce/"
+    },
+    {
+      "file": "data_Samaha_2017_exp3.csv",
+      "size": 628833,
+      "sha256": "188fdae71ffebe793cfa4dc270fee0492f40cbf86cea97aff013f7e8d4e498c8",
+      "url": "https://osf.io/download/s9234/"
+    },
+    {
+      "file": "readme_Samaha_2016.txt",
+      "size": 2434,
+      "sha256": "b217a5cb05ea9ab59fd6aa32859148902f63de1c42db9b57a4c862f3f4ee97b4",
+      "url": "https://osf.io/download/9x2dm/"
+    },
+    {
+      "file": "data_Faivre_2018_JN.csv",
+      "size": 1589168,
+      "sha256": "0b6030ef0c7b29f9ea5a137acf50204afa4dfe6a199200d641db8db68687f40b",
+      "url": "https://osf.io/download/g7543/"
+    },
+    {
+      "file": "data_OHora_unpub_1.csv",
+      "size": 1207674,
+      "sha256": "33361bb4b0a8b095fd832530b900974e513c6a9a2f5caa340b42847e950b7052",
+      "url": "https://osf.io/download/76jbt/"
+    },
+    {
+      "file": "data_Maniscalco_2017_expt2.csv",
+      "size": 1035768,
+      "sha256": "736cb99672582bc381b5381d229651ac012a07db7d475f7d98f02e4b08c11265",
+      "url": "https://osf.io/download/cb379/"
+    },
+    {
+      "file": "readme_Ye_2018.txt",
+      "size": 2466,
+      "sha256": "99ab423269869d81706087c542e03d02954746141676e777fe625ca28f5a872b",
+      "url": "https://osf.io/download/kfx3j/"
+    },
+    {
+      "file": "data_Martin_unpub.csv",
+      "size": 599148,
+      "sha256": "6d0a32f37824cc5931880cd5d928f2dac576ae5714a363844704e270ab3d98c5",
+      "url": "https://osf.io/download/vq6x2/"
+    },
+    {
+      "file": "data_Gajdos_2019.csv",
+      "size": 1436382,
+      "sha256": "faa52e0daa43d658704b053209754e994cd80e735cbd9ff5bee9b76fa9359018",
+      "url": "https://osf.io/download/8jnmy/"
+    },
+    {
+      "file": "data_Desender_2018_Exp1.csv",
+      "size": 1006998,
+      "sha256": "4b93f0d43f096a5121470b725f8246c671abaa8eef6c0a0982468208f46efee7",
+      "url": "https://osf.io/download/uvyg8/"
+    },
+    {
+      "file": "readme_Locke_2020.txt",
+      "size": 6175,
+      "sha256": "69cd5499adf3c3fadcc8fd7411975449375ecd6804a0c6d0f6715eaa44ef6759",
+      "url": "https://osf.io/download/n9zbf/"
+    },
+    {
+      "file": "readme_Konishi_2019.txt",
+      "size": 3361,
+      "sha256": "f01b8567b24aa5d3542e5625965c90c889b04d56d163b4b00aee4ba7c62af062",
+      "url": "https://osf.io/download/v47pd/"
+    },
+    {
+      "file": "readme_Shekhar_2018.txt",
+      "size": 2250,
+      "sha256": "4f19fe6d8a04588da6b31d02140ef2d645c851adb8a66b98373ce9bf759c2571",
+      "url": "https://osf.io/download/tmhcg/"
+    },
+    {
+      "file": "data_Sherman_2016_JOCN.csv",
+      "size": 1580116,
+      "sha256": "929461705c2e0621e9502b858be91e8cb1b8b3e90b8cc8fcf1e53856baecd4e8",
+      "url": "https://osf.io/download/x9h3a/"
+    },
+    {
+      "file": "readme_Xue_2024_Exp3.txt",
+      "size": 1882,
+      "sha256": "9bf8fc45f63cd706a939aa3a114094706e3702f45dfded4ed337bf3ca58f6071",
+      "url": "https://osf.io/download/qpgha/"
+    },
+    {
+      "file": "readme_Akdogan_2017_Exp1.txt",
+      "size": 3509,
+      "sha256": "7afce4de3e50f99e84b91954bae353ee4e24bb6c047956c991b49b306754ad7f",
+      "url": "https://osf.io/download/mzxpe/"
+    },
+    {
+      "file": "readme_Rausch_2014.txt",
+      "size": 2136,
+      "sha256": "d7d5eab92887c84013b766793256c57b88ca2f8c1f56bdfbb038a0a17f04eb0b",
+      "url": "https://osf.io/download/3caxb/"
+    },
+    {
+      "file": "data_Hellmann_2023_Exp1.csv",
+      "size": 1425546,
+      "sha256": "083efa892da3707669b6e797879ab6787509ad0796dbb2f77e8301248308a0e4",
+      "url": "https://osf.io/download/fhqj4/"
+    },
+    {
+      "file": "readme_Reyes_2015.txt",
+      "size": 2072,
+      "sha256": "b9ff5ddb47b8bd039709e1f0b897b171e837cbb9c3f6924fd6bca7ad04f16b81",
+      "url": "https://osf.io/download/t4xzn/"
+    },
+    {
+      "file": "data_Desender_2022_Exp1.csv",
+      "size": 1573101,
+      "sha256": "27922d0fb7dadc4649827d993562cb13811f1aba4f830a4e4015de0b5e942e42",
+      "url": "https://osf.io/download/4npq9/"
+    },
+    {
+      "file": "readme_Matthews_2018_exp2.txt",
+      "size": 3994,
+      "sha256": "b976baba12d56689897d4f584e5ade9ae0095e8c31bba9e4104612b80a2ad1ef",
+      "url": "https://osf.io/download/7wmns/"
+    },
+    {
+      "file": "data_Xue_2024_Exp2.csv",
+      "size": 541283,
+      "sha256": "f8d85a1442079cf0d933d77ceaed2d3dd0e1ead34a828dbf0f57c4475d747067",
+      "url": "https://osf.io/download/axsbm/"
+    },
+    {
+      "file": "readme_Sherman_2016_JOCN.txt",
+      "size": 2813,
+      "sha256": "12a05d1c05b9717d7ce6fe1f7911e89e39ff6cfdc0bc51260886033fde31cbe5",
+      "url": "https://osf.io/download/aym9t/"
+    },
+    {
+      "file": "data_Skora_2016.csv",
+      "size": 295470,
+      "sha256": "bc1abda50d030da2bee8f0dfeb97dfa465b46e09e20abf77e142240ccd3470d5",
+      "url": "https://osf.io/download/m3qne/"
+    },
+    {
+      "file": "readme_Maniscalco_2017_expt4.txt",
+      "size": 5166,
+      "sha256": "568475d5b9f7b7d231bf47258c599603b5b32b3a1b2c780b202abab6fde21f72",
+      "url": "https://osf.io/download/dvean/"
+    },
+    {
+      "file": "readme_Yeon_unpub_Exp2.txt",
+      "size": 2161,
+      "sha256": "c45ea9b0f3cdc6717294414b7f222a5037f9c523160bc77171985e0e271641d7",
+      "url": "https://osf.io/download/g7ary/"
+    },
+    {
+      "file": "readme_Sherman_unpub_Expt1.txt",
+      "size": 3677,
+      "sha256": "a1c1135e682b3c8fd9f2dd1a3ff26d70584bd565ad4d4b2b37fc8e8950c1abf6",
+      "url": "https://osf.io/download/nhkbx/"
+    },
+    {
+      "file": "data_Duyan_2018_Exp2.csv",
+      "size": 432628,
+      "sha256": "a6d36a909896ca21f9f93e06c28d025cdf4a1699d9d715df34d0d86a862a1c04",
+      "url": "https://osf.io/download/gm6bp/"
+    },
+    {
+      "file": "readme_VanBoxtel_2019_Expt2.txt",
+      "size": 3569,
+      "sha256": "9e7c8f34fb45197912ac3fbb5cdddc416594775ccdd34dde680ad193ad657dde",
+      "url": "https://osf.io/download/njx9b/"
+    },
+    {
+      "file": "data_Rausch_2020.csv",
+      "size": 805522,
+      "sha256": "d21f1b795358cb5da262e52331a62687845876ed140655b290677fb1de85bd29",
+      "url": "https://osf.io/download/gew8p/"
+    },
+    {
+      "file": "data_Rausch_2014.csv",
+      "size": 617538,
+      "sha256": "ff0e6bf68bda5e12e4e734fd349a6421f987c08dd05e9be0133709bbe473c2dd",
+      "url": "https://osf.io/download/48fek/"
+    },
+    {
+      "file": "data_Shekhar_2021.csv",
+      "size": 1209658,
+      "sha256": "6bf996957ccafe04ba3ba91092802646115e69531f34966f4b894da4ca2d0b07",
+      "url": "https://osf.io/download/mds32/"
+    },
+    {
+      "file": "data_VanBoxtel_2019_Expt1.csv",
+      "size": 3375864,
+      "sha256": "8ac0ccf4e6809c3bb6a5d7b55892fa9ac425e66790aa6acb80fb1869ee261364",
+      "url": "https://osf.io/download/tkydc/"
+    },
+    {
+      "file": "data_Samaha_2017_exp1.csv",
+      "size": 488868,
+      "sha256": "4a3649311469055e1f9e38a9e69433fb00fe5bd18f5763139588e92c0a916401",
+      "url": "https://osf.io/download/rmxvz/"
+    },
+    {
+      "file": "readme_Skora_2016.txt",
+      "size": 1841,
+      "sha256": "998ea663daac2d8351b076e587bc55d10817b82482316912a8cc56342944a6c5",
+      "url": "https://osf.io/download/c5f48/"
+    },
+    {
+      "file": "data_Jachs_2015_Exp3.csv",
+      "size": 264892,
+      "sha256": "46a72cb1e20419543a899d6d299c53fc2580e6919fcddd8aff734b7549064a22",
+      "url": "https://osf.io/download/8twq2/"
+    },
+    {
+      "file": "readme_Akdogan_2017_Exp2.txt",
+      "size": 3522,
+      "sha256": "807b0bb6b3505b901d24c5070e1e14c79d6c80ac7848c8c25e2cfab4e069c239",
+      "url": "https://osf.io/download/c92wf/"
+    },
+    {
+      "file": "readme_Hellmann_2023_Exp1.txt",
+      "size": 1892,
+      "sha256": "daed4eba41320763b00f2bfea00cb7b43fbdade888ba019f8bf3d29af8f14987",
+      "url": "https://osf.io/download/4cedb/"
+    },
+    {
+      "file": "readme_OHora_unpub_2.txt",
+      "size": 3069,
+      "sha256": "325730008d88f2d91bc3b9b7d14d433ed1713f5680a2e1534dd0550c3b426c43",
+      "url": "https://osf.io/download/ctvyq/"
+    },
+    {
+      "file": "data_Clark_unpub.csv",
+      "size": 100327,
+      "sha256": "fb55306b558622317d4a7026f6d7dcb89391c92445899e7687c21481e6a86b81",
+      "url": "https://osf.io/download/c9ts8/"
+    },
+    {
+      "file": "readme_OHora_2017.txt",
+      "size": 2756,
+      "sha256": "4ba6f0bab1bbe5ffce88ac07de95d1cab803d4ff0181abf30cfd403f2391aa96",
+      "url": "https://osf.io/download/32ncj/"
+    },
+    {
+      "file": "readme_Jachs_2015_Exp2.txt",
+      "size": 3002,
+      "sha256": "45636c7cae5f2067f31b1dc988b2805271da5862d325d55155a6842e93164784",
+      "url": "https://osf.io/download/gstfh/"
+    },
+    {
+      "file": "data_Mei_2019_Exp1.csv",
+      "size": 511031,
+      "sha256": "909a9ac79793ade3f0c1e28a25954574d0b3249ba32c6336c8ee20394d8a5052",
+      "url": "https://osf.io/download/tcbd7/"
+    },
+    {
+      "file": "data_Desender_2021_Cognit.csv",
+      "size": 823556,
+      "sha256": "67977a1e027f6e8d7fd0250f44c7a2907ac45f16481d5d366e7289d9b256c7fd",
+      "url": "https://osf.io/download/3t98v/"
+    },
+    {
+      "file": "data_Law_unpub.csv",
+      "size": 1345960,
+      "sha256": "79c8f01606dd9cd5b42a1c52507df7f9d9c54f7775aaf7f7f8e7280d8500026b",
+      "url": "https://osf.io/download/vgr27/"
+    },
+    {
+      "file": "data_Bang_2019_Exp1.csv",
+      "size": 2240984,
+      "sha256": "032d2bfbe0ea332f700fe4b64d0c16c55b634ee7f2c2df8695b0bb45d49b4326",
+      "url": "https://osf.io/download/93m6e/"
+    },
+    {
+      "file": "readme_Duyan_2018_Exp1.txt",
+      "size": 1479,
+      "sha256": "6951ddbaff44e461758b8b1973a81b192aedb10eddc560ef20bf77ec5261fd29",
+      "url": "https://osf.io/download/h7r3k/"
+    },
+    {
+      "file": "readme_Bang_2019_Exp1.txt",
+      "size": 2892,
+      "sha256": "a1ec4335c8067224d8280c2288eaf2a46ea5b85859d71cb120b7913c4ebe5baa",
+      "url": "https://osf.io/download/b2vkf/"
+    },
+    {
+      "file": "readme_Samaha_2017_exp1.txt",
+      "size": 2669,
+      "sha256": "c68dae7e896d93143aea5c2220462ab9cdfb8970c62f99187a2e43f617f8b1b8",
+      "url": "https://osf.io/download/4ahpq/"
+    },
+    {
+      "file": "data_Xiang_2021.csv",
+      "size": 2901124,
+      "sha256": "08561fa27dda2987f5fe407e2ce69c4f01c98ddb8a1d67963f32e411d51a5a13",
+      "url": "https://osf.io/download/u6vbe/"
+    },
+    {
+      "file": "readme_Clark_unpub.txt",
+      "size": 8782,
+      "sha256": "b5b61f9f6f19e7068b06f72e1f452e591a90ca9d5a0076d3600ce8284e707862",
+      "url": "https://osf.io/download/urj4t/"
+    },
+    {
+      "file": "data_Shekhar_2018.csv",
+      "size": 366157,
+      "sha256": "982c03c210e14ea06a712a37ab8459e47ae1813237e4dd0a9256c8299fb0caee",
+      "url": "https://osf.io/download/wc59m/"
+    },
+    {
+      "file": "readme_Duyan_unpub_Exp2.txt",
+      "size": 1712,
+      "sha256": "e3a50da400c1556c75f3858191fd265e5b16f0bf070ef7ba7c3eca3aa9c7d2d3",
+      "url": "https://osf.io/download/p75dm/"
+    },
+    {
+      "file": "readme_Maniscalco_2017_expt1.txt",
+      "size": 3467,
+      "sha256": "c749ff8b825a89914c49f44d0c05a5c3fbb03d2e974898e8ff19c2e25c80e6ae",
+      "url": "https://osf.io/download/f7qs9/"
+    },
+    {
+      "file": "data_Siedlecka_2021.csv",
+      "size": 2717209,
+      "sha256": "80a5f902a2fb2a3cfe2ae5689c6702686bccf679a8a6e6a50488d5398509ceb9",
+      "url": "https://osf.io/download/f59bn/"
+    },
+    {
+      "file": "data_Rausch_2018_Expt2.csv",
+      "size": 873858,
+      "sha256": "49ddcc775c61d5f34a44a5aa81867033a33923ea79c47df1e757bdf4128733c2",
+      "url": "https://osf.io/download/mqyba/"
+    },
+    {
+      "file": "data_Duyan_2018_Exp1.csv",
+      "size": 633918,
+      "sha256": "5f209de9d3bf91429ee11375898fb59800a993433f9bd3812d740000ea8c95e6",
+      "url": "https://osf.io/download/92eam/"
+    },
+    {
+      "file": "data_Zheng_2023.csv",
+      "size": 6536814,
+      "sha256": "e5b8acf89efd85e0545301e311c51a399dcd139522b51ebeddd9f9bbbb0a1b4f",
+      "url": "https://osf.io/download/y4a9s/"
+    },
+    {
+      "file": "data_Jachs_2015_Exp2.csv",
+      "size": 578884,
+      "sha256": "74d132854a4c44d3412c3320a421af4344ad90cbcb34eaf3200728f57b1ff095",
+      "url": "https://osf.io/download/fnc6w/"
+    },
+    {
+      "file": "data_Lo_unpub.csv",
+      "size": 918231,
+      "sha256": "7f5e2902a2da6f55fc9dadaa7ddcd17277c41ee5926e3c9b83ac41b32135447c",
+      "url": "https://osf.io/download/rqybz/"
+    },
+    {
+      "file": "data_OHora_unpub_2.csv",
+      "size": 694552,
+      "sha256": "7caf5c507ca5bd914f9f4717b02a7eb116c9766d8227a9da3795e306b770e932",
+      "url": "https://osf.io/download/e7jus/"
+    },
+    {
+      "file": "data_Hainguerlot_unpub.csv",
+      "size": 916195,
+      "sha256": "bb30ac655747f0d42e990f8edf5106e64503f17c44fbdce2ad27fc2d3e2484a9",
+      "url": "https://osf.io/download/64jdt/"
+    },
+    {
+      "file": "readme_Mei_2019_Exp2.txt",
+      "size": 5289,
+      "sha256": "a8cee59d5faff6baa7dca35fbe8e91c02e6605e4058c0710291e6bc0d9d29481",
+      "url": "https://osf.io/download/xbequ/"
+    },
+    {
+      "file": "readme_Rouault_2019.txt",
+      "size": 2323,
+      "sha256": "1130847fe60a6e306c483d2a1ba6beddcee51923003cc1fb5c786bca87efe3fe",
+      "url": "https://osf.io/download/xu3vw/"
+    },
+    {
+      "file": "data_Xue_2024_Exp3.csv",
+      "size": 571735,
+      "sha256": "a3cb5649ad3b6140b41fe70afe69b0b1bbcd5670d88199c589dbab78724459be",
+      "url": "https://osf.io/download/hz4py/"
+    },
+    {
+      "file": "data_Siedlecka_2019.csv",
+      "size": 1146995,
+      "sha256": "fa43bdc32fea249f640618748d3213bd441c5d9e357e14b9db4ec97a14688de4",
+      "url": "https://osf.io/download/acy7k/"
+    },
+    {
+      "file": "readme_Yeon_unpub_Exp1.txt",
+      "size": 2040,
+      "sha256": "6f5da2cf61fa194e0eccd65d3176f07760ba1298b2b85d2e03c0c823c57e147c",
+      "url": "https://osf.io/download/a236g/"
+    },
+    {
+      "file": "data_Gherman_2018.csv",
+      "size": 217613,
+      "sha256": "278bec7b354a7ec82ee618cef1564be021b67b480c11ae348ee70498a6a6f232",
+      "url": "https://osf.io/download/ky523/"
+    },
+    {
+      "file": "data_Denison_2018.csv",
+      "size": 1214609,
+      "sha256": "c4dddc619b37067d781616210cd4075699e64517730967f63df680a7861fc8c5",
+      "url": "https://osf.io/download/xuzaf/"
+    },
+    {
+      "file": "data_Yeon_unpub_Exp1.csv",
+      "size": 1119005,
+      "sha256": "4e8a50e18c9a431ee45e5a76c228b47b98a62930db4c8425539325630ddece5d",
+      "url": "https://osf.io/download/d8hqp/"
+    },
+    {
+      "file": "readme_Denison_2018.txt",
+      "size": 2424,
+      "sha256": "4f507423f952edc908430ed0b942b3aca21580e164e6c463c116ad4682ce5ff2",
+      "url": "https://osf.io/download/h8afe/"
+    },
+    {
+      "file": "readme_AguilarLleyda_unpub.txt",
+      "size": 6642,
+      "sha256": "f3f7cd8b9b95e2cbec894f45c49313ee95a772f11da102581918a6d9a68ba857",
+      "url": "https://osf.io/download/dzfyq/"
+    },
+    {
+      "file": "data_Clark_2018.csv",
+      "size": 798490,
+      "sha256": "7d4e7cb50d4c52cb2882ba80b0b49e581cbe1b508a005a3d43e0e2a1eb3a5833",
+      "url": "https://osf.io/download/nc2st/"
+    },
+    {
+      "file": "readme_Gajdos_2019.txt",
+      "size": 3515,
+      "sha256": "6cdc44724dce017ce7861efb5d3d3a00e580724d36daa9197877ffeda0006804",
+      "url": "https://osf.io/download/hdxmp/"
+    },
+    {
+      "file": "readme_Rahnev_2013.txt",
+      "size": 2135,
+      "sha256": "252dec400fd655064ea65e652884ec8cf407fb6e13a63d532541b9c32b0e5f9c",
+      "url": "https://osf.io/download/jpm2b/"
+    },
+    {
+      "file": "readme_Zheng_2023.txt",
+      "size": 1859,
+      "sha256": "3ca308c751bd3038d49d56cf03d16ee3365d5a2caf9903951c8405740cd8adae",
+      "url": "https://osf.io/download/69g2z/"
+    },
+    {
+      "file": "readme_Rausch_2018_Expt1.txt",
+      "size": 2060,
+      "sha256": "c97aa35f871da585f765431be8bdbf3a0840c85acc65947e397b7145708aaf7a",
+      "url": "https://osf.io/download/cys5r/"
+    },
+    {
+      "file": "readme_Yeon_2019.txt",
+      "size": 2849,
+      "sha256": "7e181f76299454611895d7956743be994dd7ea4f155f16b62ef40c1016542480",
+      "url": "https://osf.io/download/mezhf/"
+    },
+    {
+      "file": "data_Rausch_2018_Expt1.csv",
+      "size": 370187,
+      "sha256": "9aceb1ef5966a0d45e20b9fe274440b87dc74916ec35044850cea5496e5db11c",
+      "url": "https://osf.io/download/kfhp8/"
+    },
+    {
+      "file": "data_Maniscalco_2017_expt3.csv",
+      "size": 1044311,
+      "sha256": "74948262ea086cc3ed72d13d24af5d911741d298e790cc697e728c7e6ec3cda6",
+      "url": "https://osf.io/download/d3qzg/"
+    },
+    {
+      "file": "data_Desender_2018_Exp2.csv",
+      "size": 2530129,
+      "sha256": "b24e660c8deb2780ca8a085d15d3c771b0ae3b0acb7bd232fda42eaa4c7011b5",
+      "url": "https://osf.io/download/bpj6h/"
+    },
+    {
+      "file": "readme_Rouault_2018_Expt1.txt",
+      "size": 3042,
+      "sha256": "193c785ffa6098ffe7de64160ab0e1ebabd7cdf41ae1c346103bc3ce25b59056",
+      "url": "https://osf.io/download/yaxk8/"
+    },
+    {
+      "file": "data_Duyan_2019.csv",
+      "size": 619351,
+      "sha256": "d9a6a21fd614a5b5d2ae3f1f5c8b98c871e1c01381aa2b58f4d81ac6a938c0a4",
+      "url": "https://osf.io/download/qt92p/"
+    },
+    {
+      "file": "readme_Desender_2018_Exp1.txt",
+      "size": 1625,
+      "sha256": "30951582f5c5497b2512f6fd8fc6b993a0a13bf16021365c4f8ba1b2775d0d56",
+      "url": "https://osf.io/download/qza7b/"
+    },
+    {
+      "file": "data_Matthews_2018_exp1.csv",
+      "size": 991454,
+      "sha256": "851b14fdaf03a3a8e805c3f02de509ce2f4cb376a3f9f58032d131b3d0548516",
+      "url": "https://osf.io/download/bv9jy/"
+    },
+    {
+      "file": "data_Hellmann_2023_Exp2.csv",
+      "size": 2388747,
+      "sha256": "a385a4294b386a96556b7801d819caad744c39ec7a863aa8d1261a9ef4087325",
+      "url": "https://osf.io/download/w3te7/"
+    },
+    {
+      "file": "readme_Hainguerlot_unpub.txt",
+      "size": 5062,
+      "sha256": "5efd75aab4e5739b9b2318f5a9ab8a1a9dbf84b64c26e20af9caf37711924d25",
+      "url": "https://osf.io/download/m3du8/"
+    },
+    {
+      "file": "readme_Mei_2019_Exp1.txt",
+      "size": 4713,
+      "sha256": "204978498850cb583756f985e506f047772cb6281348779fb8687f0d92fbbf47",
+      "url": "https://osf.io/download/fut9q/"
+    },
+    {
+      "file": "data_Rouault_2018_Expt2.csv",
+      "size": 2469897,
+      "sha256": "0d8becaec882ac0370030e5aa3f8f5c725028bb67735a756867ca0b321aa6a30",
+      "url": "https://osf.io/download/4ybmt/"
+    },
+    {
+      "file": "readme_Clark_2018.txt",
+      "size": 7160,
+      "sha256": "e052d6d60cafc23d8e588bb1c574a86f5ac9d2b7112540a1995c51c20a6bab39",
+      "url": "https://osf.io/download/5r46t/"
+    },
+    {
+      "file": "readme_Siedlecka_2019.txt",
+      "size": 4658,
+      "sha256": "dcafd1385a9345a09ebd13b65ba8750176872490a8e8df1cb7c11f39406a17dc",
+      "url": "https://osf.io/download/rypc9/"
+    },
+    {
+      "file": "data_Rahnev_2013.csv",
+      "size": 1062505,
+      "sha256": "c5003b83a1c71ee72937a904b76f9de998b824653798af56be955d842401d6c0",
+      "url": "https://osf.io/download/64g2x/"
+    },
+    {
+      "file": "readme_Lo_unpub.txt",
+      "size": 2791,
+      "sha256": "2a813bc0ea32d9824fb28e818466ab425bdeac12d5fc6293c8120de291d507a0",
+      "url": "https://osf.io/download/fyd7n/"
+    },
+    {
+      "file": "data_Hainguerlot_2018.csv",
+      "size": 856047,
+      "sha256": "5d68a4ab8dfdf336f16e960612b3331229709769dad96261cd26d9bdd33d0389",
+      "url": "https://osf.io/download/7u9st/"
+    },
+    {
+      "file": "readme_Desender_2022_Exp1.txt",
+      "size": 1563,
+      "sha256": "ea87972aff8a9f3fb1c71a2ab0fd5a5eb4d0974251ad76adfd9287c97746c95b",
+      "url": "https://osf.io/download/vup59/"
+    },
+    {
+      "file": "data_Gallagher_2019_Exp2.csv",
+      "size": 63139,
+      "sha256": "25471368927183536433dbd0863cd9d62731ce1c909e85d90b5cbd28909e7bb2",
+      "url": "https://osf.io/download/gxv3k/"
+    },
+    {
+      "file": "data_Duyan_unpub_Exp1.csv",
+      "size": 331243,
+      "sha256": "4ed90186624b2f6e35d15b0806b0f7e6ab85cd312976a8fc0225fbf4df0f4582",
+      "url": "https://osf.io/download/y7jcp/"
+    },
+    {
+      "file": "readme_Maniscalco_2017_expt3.txt",
+      "size": 4588,
+      "sha256": "2922da01d1fdc84fcdc0459ad20e3eed5cffbd475bd2137180eb2a502c7f2aa2",
+      "url": "https://osf.io/download/8t27g/"
+    },
+    {
+      "file": "readme_Faivre_2018_JN.txt",
+      "size": 1156,
+      "sha256": "316277dda860f4c8c7f824fd54292571a727cd09448c90f5f1bb9dd65f8b53f3",
+      "url": "https://osf.io/download/94jkn/"
+    },
+    {
+      "file": "readme_Samaha_2017_exp2.txt",
+      "size": 2182,
+      "sha256": "3b5ca67c19d0909ee031a5715d54781250423ec05f8ff408f2811216ff129b82",
+      "url": "https://osf.io/download/9akg8/"
+    },
+    {
+      "file": "readme_Rouault_2018_Expt2.txt",
+      "size": 2671,
+      "sha256": "ee0f6e65ab2a46bdd3bfda5df096288b6e6c246aa6accb050b326ca0c2058a7e",
+      "url": "https://osf.io/download/wcdv7/"
+    },
+    {
+      "file": "readme_Schmidt_2019_perception.txt",
+      "size": 2489,
+      "sha256": "c3cb07a409d75fd92a772a26b0e783f494355a943267d65ecfd9d6f4a5907e70",
+      "url": "https://osf.io/download/cuabh/"
+    },
+    {
+      "file": "data_OHora_2017.csv",
+      "size": 794513,
+      "sha256": "b3a21119d5815ed2cf38c1827c35ab4521613ebb515677ddb574837fa34449bc",
+      "url": "https://osf.io/download/f6w8k/"
+    },
+    {
+      "file": "data_Locke_2020.csv",
+      "size": 2420214,
+      "sha256": "1958dc9a8329497a279ae56c3f85e27682da8df25a9641bea059109aa1f40a91",
+      "url": "https://osf.io/download/bwzad/"
+    },
+    {
+      "file": "data_Kvam_2015_ch.csv",
+      "size": 436798,
+      "sha256": "d7c0c1a701edd44808fa73a93c4f86facab5a44a7679c8e60d64946587b31a28",
+      "url": "https://osf.io/download/w5e3z/"
+    },
+    {
+      "file": "readme_Duyan_unpub_Exp1.txt",
+      "size": 1711,
+      "sha256": "2be2da8487959c4b3149b7923a26af767654c3fe1f2ad84ef8f8f15e9a34e884",
+      "url": "https://osf.io/download/964f7/"
+    },
+    {
+      "file": "data_Konishi_2019.csv",
+      "size": 6913651,
+      "sha256": "94d7c8b7cd410ea83f1227c65dd67c32e044df8a86f0fe285461d4af58cfcf56",
+      "url": "https://osf.io/download/a59h4/"
+    },
+    {
+      "file": "readme_Prieto_unpub.txt",
+      "size": 1671,
+      "sha256": "7c6441e41b31a0a2026da49cf285d22c90e859386816dc35f43da4107356ea8e",
+      "url": "https://osf.io/download/k7vw5/"
+    },
+    {
+      "file": "data_Matthews_unpub.csv",
+      "size": 4891006,
+      "sha256": "5df37447cd92faf807c3dcba4c80df206f43f6869a8ab97f383ea64f15bc89bc",
+      "url": "https://osf.io/download/g8hdn/"
+    },
+    {
+      "file": "data_Mazor_2020.csv",
+      "size": 880450,
+      "sha256": "d7f91ce747bcc8274b3374aa1aaba4d5ce696baca2bce49b9ed17f01b609d08d",
+      "url": "https://osf.io/download/8gbkw/"
+    },
+    {
+      "file": "readme_Sherman_2016_JN.txt",
+      "size": 3045,
+      "sha256": "065a2679f1033f609066e811e69d78e8a699acb70671c2705d96cac5bc22abe6",
+      "url": "https://osf.io/download/j27ug/"
+    },
+    {
+      "file": "data_Massoni_unpub.csv",
+      "size": 362604,
+      "sha256": "613e1d9b6657dc58185125ebe4d01da9ad6ce654d33b926a59b5c3cc17896b59",
+      "url": "https://osf.io/download/6uf24/"
+    },
+    {
+      "file": "data_Maniscalco_2017_expt4.csv",
+      "size": 1723569,
+      "sha256": "4770b5a2fe59e7fc910637e1b6fe6e25c03d6b6e05e2b8e28bf05f6c0fc1cdaf",
+      "url": "https://osf.io/download/8umcv/"
+    },
+    {
+      "file": "readme_Rausch_2016.txt",
+      "size": 1711,
+      "sha256": "6bc3189bc7b76e6136785663f46339fa36677dd151f508b6d431d0f32ae9a4ae",
+      "url": "https://osf.io/download/2xj4g/"
+    },
+    {
+      "file": "data_CalderTravis_unpub.csv",
+      "size": 1767253,
+      "sha256": "0cebe7445cd11b8e42c100a4b480929785b62736f521c23b1a1fb7b9d2486d41",
+      "url": "https://osf.io/download/7jkb2/"
+    },
+    {
+      "file": "readme_Rausch_2020.txt",
+      "size": 1619,
+      "sha256": "297aa1362665ed68328ea3fea8e263968ea72a6768bc5a37e27a968cbe7207ae",
+      "url": "https://osf.io/download/auvew/"
+    },
+    {
+      "file": "data_Rausch_2016.csv",
+      "size": 439424,
+      "sha256": "b9fd2ac0175e7c6f57734f9266be941a5c21da64b897580a43b37af77d6e7cef",
+      "url": "https://osf.io/download/zy43r/"
+    },
+    {
+      "file": "data_Schmidt_2019_perception.csv",
+      "size": 536999,
+      "sha256": "14ac78bc5b4aad9cbd823b6b05d377dd24e3eacf32638041efd28599ffba8a9b",
+      "url": "https://osf.io/download/zx5mn/"
+    },
+    {
+      "file": "readme_Wang_2017_Neuropsychologia.txt",
+      "size": 3381,
+      "sha256": "1db4000671a46c988825505d307c64fb5b65a64dd855ded5150f044e92fb305e",
+      "url": "https://osf.io/download/u6phy/"
+    },
+    {
+      "file": "readme_Duyan_2018_Exp2.txt",
+      "size": 1473,
+      "sha256": "e431da3baa92776a1686d66aefb96e91c935aaf494ae6d6ef2bdb4ca58938c89",
+      "url": "https://osf.io/download/cyns9/"
+    },
+    {
+      "file": "data_Haddara_2022_Expt2.csv",
+      "size": 6447862,
+      "sha256": "a49da0b292a6f896cbfb4a6f68228d2bdf290b4fdda4ee83ec496f6256d1d2a5",
+      "url": "https://osf.io/download/zaxup/"
+    },
+    {
+      "file": "data_Yeon_unpub_Exp2.csv",
+      "size": 1706236,
+      "sha256": "77bb14fe96f53c4c567e349b930ff9ea9dc9e70454f77a5868ed39f6e3ee49ed",
+      "url": "https://osf.io/download/7ryn8/"
+    },
+    {
+      "file": "readme_Desender_2022_Exp2B.txt",
+      "size": 1083,
+      "sha256": "7d18cf4ada24f1e56ac2d59af6705b4c53e15a9218af0242e46dbc76ad9895e4",
+      "url": "https://osf.io/download/w5b27/"
+    },
+    {
+      "file": "readme_Rausch_2018_Expt2.txt",
+      "size": 1782,
+      "sha256": "8998b473675a935fa2e191845fb11843e6f7803f319a509d49354e9972aed694",
+      "url": "https://osf.io/download/gah64/"
+    },
+    {
+      "file": "readme_Kvam_2015_ch.txt",
+      "size": 2101,
+      "sha256": "8642c57c452ab0758f64b53a8705d8c5776a3489bfaa7916913f448fbe7eefae",
+      "url": "https://osf.io/download/n7bza/"
+    },
+    {
+      "file": "data_Kvam_2015_nc.csv",
+      "size": 340540,
+      "sha256": "759fbbbccd40ebdf7acf439723c9b2ac421ff3eecbabad023904551634259980",
+      "url": "https://osf.io/download/vq46p/"
+    },
+    {
+      "file": "readme_Haddara_2022_Expt2.txt",
+      "size": 2322,
+      "sha256": "31055cf1df8b3422c1f66c8494fa622590c08686b5d9458f87bcc19a5a875240",
+      "url": "https://osf.io/download/tuh2g/"
+    },
+    {
+      "file": "data_AguilarLleyda_2018.csv",
+      "size": 932747,
+      "sha256": "7996ad6b88ecafd013b1f87bc0185952c203d0e77a7381d670c0238df13e9879",
+      "url": "https://osf.io/download/6nwmp/"
+    },
+    {
+      "file": "readme_Haddara_2022_Expt1.txt",
+      "size": 3225,
+      "sha256": "806d23887fa8887f8b6215398fca4d260b82ea606ff5bdc4deb334e5b2be11f0",
+      "url": "https://osf.io/download/tdvxc/"
+    },
+    {
+      "file": "data_Jachs_2015_Exp1.csv",
+      "size": 412848,
+      "sha256": "d5709f6a884a180c2793e503f08a6eb80af9b3fd0aa33db31b5db353a9d932c8",
+      "url": "https://osf.io/download/kxzn8/"
+    },
+    {
+      "file": "readme_Wierzchon_2014.txt",
+      "size": 4656,
+      "sha256": "f6e954cf0d46eb75e07a899ca6040954b3c67004c9dec1e6f5e31bef8898d582",
+      "url": "https://osf.io/download/zmkc4/"
+    },
+    {
+      "file": "data_Samaha_2016.csv",
+      "size": 365081,
+      "sha256": "f3be13608543990656ac188022ac6944e23ae7c64f0c321a5bdcf94a7cb6cf58",
+      "url": "https://osf.io/download/m8pf4/"
+    },
+    {
+      "file": "readme_Duyan_2019.txt",
+      "size": 1398,
+      "sha256": "45b0d8008b95bff99fd117cab1c8ebc79a27d6c566575e28aab2f2110c802b72",
+      "url": "https://osf.io/download/evwjg/"
+    },
+    {
+      "file": "readme_VanBoxtel_2019_Expt1.txt",
+      "size": 3521,
+      "sha256": "4fc4e4033a70de5682447de49175e45f9a45ff43fb53e08bb0962490874c3bd7",
+      "url": "https://osf.io/download/qgct4/"
+    },
+    {
+      "file": "data_Yeon_2019.csv",
+      "size": 1092778,
+      "sha256": "b9e52771a8ac553f7eb62ee7c8371b3c6479b363382b24b3ef891cc076802df6",
+      "url": "https://osf.io/download/p5du8/"
+    },
+    {
+      "file": "readme_Jachs_2015_Exp1.txt",
+      "size": 3072,
+      "sha256": "1e44437f186d99fd900cdac6d2f2cad7ff7b6659134af37a02e5a2b4e309981c",
+      "url": "https://osf.io/download/6w8ek/"
+    },
+    {
+      "file": "readme_Gherman_2018.txt",
+      "size": 2702,
+      "sha256": "48747b41099679102e9dada705769bfa0e194d05ef6f543636c7f209669e6366",
+      "url": "https://osf.io/download/bs75p/"
+    },
+    {
+      "file": "data_Sherman_unpub_Expt1.csv",
+      "size": 4143492,
+      "sha256": "f29f25e3ab623c561952f55d484fd80a66b526f3b2a8a3040c1aca74fd957132",
+      "url": "https://osf.io/download/s7uvg/"
+    },
+    {
+      "file": "readme_Bang_2019_Exp2.txt",
+      "size": 1601,
+      "sha256": "2201ed04edfe456275d16d359075043bd2d130a893937bf28610a2d29fc87662",
+      "url": "https://osf.io/download/2upxd/"
+    },
+    {
+      "file": "data_Prieto_unpub.csv",
+      "size": 1347537,
+      "sha256": "46a85be67c2826eb7f36cb1e32cdb0eefbe2a2c13431dd2ad936eb4638873bab",
+      "url": "https://osf.io/download/6h4y7/"
+    },
+    {
+      "file": "data_Haddara_2022_Expt1.csv",
+      "size": 5641590,
+      "sha256": "e6da34727c94c71f8faccc9c5fad3eeb19e4c832285f4f3583654cd0a5c53937",
+      "url": "https://osf.io/download/ya3k8/"
+    },
+    {
+      "file": "readme_Maniscalco_2017_expt2.txt",
+      "size": 3962,
+      "sha256": "8b0ad51e5bab61b7dc50c2e8e5616532f65388c15363793d47821c46f486f0c4",
+      "url": "https://osf.io/download/rxek6/"
+    },
+    {
+      "file": "data_Duyan_unpub_Exp2.csv",
+      "size": 390909,
+      "sha256": "0c0494ba6a00a48b28f542e9452e1222d32f5e47bcf61413b362fc004e4f8c8c",
+      "url": "https://osf.io/download/vkbts/"
+    },
+    {
+      "file": "data_Sherman_2016_JN.csv",
+      "size": 323066,
+      "sha256": "6269d8be722d856367c07a796c2c6e4121ba52e1b35199036b4ddc5d61bdd615",
+      "url": "https://osf.io/download/tyqkd/"
+    },
+    {
+      "file": "readme_Recht_unpub.txt",
+      "size": 3530,
+      "sha256": "1af00147202e7183aebe9547ad643fb879afaae3a5231e82fe3a44460f0c1cfa",
+      "url": "https://osf.io/download/z5ec7/"
+    },
+    {
+      "file": "readme_Desender_2022_Exp1S.txt",
+      "size": 1551,
+      "sha256": "1f1d29c6384d165275efe1c48bbb8596d3adde53fe6102363857984a8689d3da",
+      "url": "https://osf.io/download/btzdv/"
+    },
+    {
+      "file": "data_Recht_unpub.csv",
+      "size": 512175,
+      "sha256": "9ba50ba726a2fb390159d4b40f8d1585d93456fed0e5a618c2e8536dd6500edd",
+      "url": "https://osf.io/download/q5zut/"
+    },
+    {
+      "file": "data_Akdogan_2017_Exp2.csv",
+      "size": 243914,
+      "sha256": "431cc9fbaee6820cb043ef5464d92cd66b8e5f385da65b2d54d4c23fb64aafe0",
+      "url": "https://osf.io/download/fwy25/"
+    },
+    {
+      "file": "readme_Gallagher_2019_Exp2.txt",
+      "size": 2473,
+      "sha256": "374f0faec6a75f4971e6af40c064628ee82899d54fe908cdb64ee1d3a9f340e6",
+      "url": "https://osf.io/download/s7xnz/"
+    }
+  ]
+}

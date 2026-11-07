@@ -1,0 +1,388 @@
+{
+  "ddm_kappa": {
+    "value": 14.7242,
+    "source": "ddm_calibration.json",
+    "path": "kappa",
+    "desc": "DDM drift sensitivity (calibrated)"
+  },
+  "ddm_a": {
+    "value": 1.4916,
+    "source": "ddm_calibration.json",
+    "path": "a",
+    "desc": "DDM threshold (calibrated)"
+  },
+  "ddm_Ter": {
+    "value": 0.318,
+    "source": "ddm_calibration.json",
+    "path": "Ter",
+    "desc": "DDM non-decision time (calibrated)"
+  },
+  "ddm_recovery_r_kappa": {
+    "value": 0.9966,
+    "source": "ddm_recovery.json",
+    "path": "recovery.kappa.r",
+    "desc": "DDM recovery r(kappa)"
+  },
+  "ddm_recovery_r_a": {
+    "value": 0.9999,
+    "source": "ddm_recovery.json",
+    "path": "recovery.a.r",
+    "desc": "DDM recovery r(a)"
+  },
+  "ddm_recovery_r_Ter": {
+    "value": 0.9999,
+    "source": "ddm_recovery.json",
+    "path": "recovery.Ter.r",
+    "desc": "DDM recovery r(Ter)"
+  },
+  "rl_alpha": {
+    "value": 0.15,
+    "source": "rl_mood_calibration.json",
+    "path": "calibrated.alpha",
+    "desc": "RL learning rate (calibrated)"
+  },
+  "rl_beta": {
+    "value": 2.5,
+    "source": "rl_mood_calibration.json",
+    "path": "calibrated.beta",
+    "desc": "RL inverse temperature (calibrated)"
+  },
+  "mle_r_kappa": {
+    "value": 0.9447618733085583,
+    "source": "p6_ddm_mle_recovery.json",
+    "path": "r_kappa",
+    "desc": "MLE recovery r(kappa)"
+  },
+  "mle_r_a": {
+    "value": 0.9710578375382714,
+    "source": "p6_ddm_mle_recovery.json",
+    "path": "r_a",
+    "desc": "MLE recovery r(a)"
+  },
+  "mle_r_Ter": {
+    "value": 0.9919010458129901,
+    "source": "p6_ddm_mle_recovery.json",
+    "path": "r_Ter",
+    "desc": "MLE recovery r(Ter)"
+  },
+  "p6_ddm_n_datasets": {
+    "value": 73,
+    "source": "p6_ddm_comparison.json",
+    "path": "n_datasets",
+    "desc": "DDM comparison: datasets"
+  },
+  "p6_ddm_n_subjects": {
+    "value": 4066,
+    "source": "p6_ddm_comparison.json",
+    "path": "n_subjects",
+    "desc": "DDM comparison: subjects"
+  },
+  "p6_ddm_single_in_threshold": {
+    "value": 8,
+    "source": "p6_ddm_comparison.json",
+    "path": "accuracy_distribution.single.in_threshold",
+    "desc": "Single-condition: count in threshold"
+  },
+  "p6_ddm_single_N": {
+    "value": 20,
+    "source": "p6_ddm_comparison.json",
+    "path": "accuracy_distribution.single.N",
+    "desc": "Single-condition: total datasets"
+  },
+  "p6_ddm_single_mae_median": {
+    "value": 0.041,
+    "source": "p6_ddm_comparison.json",
+    "path": "accuracy_distribution.single.percentiles.50",
+    "desc": "Single-condition: MAE median"
+  },
+  "p6_ddm_multi_mae_median": {
+    "value": 0.102,
+    "source": "p6_ddm_comparison.json",
+    "path": "accuracy_distribution.multi.percentiles.50",
+    "desc": "Multi-condition: MAE median"
+  },
+  "p6_ddm_coherence_mae": {
+    "value": 0.086,
+    "source": "p6_ddm_comparison.json",
+    "path": "scale_type_analysis_v2.refined_groups.coherence.MAE_median",
+    "desc": "Coherence datasets MAE median"
+  },
+  "p6_ddm_coherence_threshold": {
+    "value": 0.032,
+    "source": "p6_ddm_comparison.json",
+    "path": "scale_type_analysis_v2.coherence_own_threshold.accuracy_SD",
+    "desc": "Coherence-only inter-dataset SD"
+  },
+  "p6_arousal_onset_data": {
+    "value": 23.65,
+    "source": "p6_arousal_comparison.json",
+    "path": "robustness.fixed_50.onset_circ_mean_h",
+    "desc": "Data onset circular mean (h), fixed_50 variant"
+  },
+  "p6_arousal_onset_diff_min": {
+    "value": -60,
+    "source": "p6_arousal_comparison.json",
+    "path": "retained.onset.diff_range_min.0",
+    "desc": "Onset difference min (min)"
+  },
+  "p6_arousal_onset_data_sd_min": {
+    "value": 103,
+    "source": "p6_arousal_comparison.json",
+    "path": "robustness.fixed_50.onset_within_sd_median_min",
+    "desc": "Data onset within-individual circular SD (min)"
+  },
+  "p6_arousal_within_sd": {
+    "value": 2.18,
+    "source": "p6_arousal_comparison.json",
+    "path": "robustness.fixed_50.within_individual_sd_h",
+    "desc": "Within-individual SD (h)"
+  },
+  "p6_arousal_between_sd": {
+    "value": 0.98,
+    "source": "p6_arousal_comparison.json",
+    "path": "robustness.fixed_50.between_individual_sd_h",
+    "desc": "Between-individual SD (h)"
+  },
+  "p6_rl_n_adults": {
+    "value": 114,
+    "source": "p6_rl_comparison.json",
+    "path": "n_adults",
+    "desc": "RL adults 18+"
+  },
+  "p6_rl_data_ws": {
+    "value": 0.9522002883500743,
+    "source": "p6_rl_comparison.json",
+    "path": "empirical.ws.mean",
+    "desc": "Data win-stay"
+  },
+  "p6_rl_model_ws": {
+    "value": 0.6805931462760675,
+    "source": "p6_rl_comparison.json",
+    "path": "model.ws",
+    "desc": "Model win-stay (calibrated)"
+  },
+  "p6_rl_diag_ws": {
+    "value": 0.8949770689593312,
+    "source": "p6_rl_comparison.json",
+    "path": "diagnostic.alpha_eckstein.ws",
+    "desc": "Model WS at alpha=0.76 (diagnostic)"
+  },
+  "p6_rl_data_acc": {
+    "value": 0.7311971504877904,
+    "source": "p6_rl_comparison.json",
+    "path": "empirical.acc.mean",
+    "desc": "Data accuracy"
+  },
+  "p6_rl_model_acc": {
+    "value": 0.5752923976608186,
+    "source": "p6_rl_comparison.json",
+    "path": "model.acc",
+    "desc": "Model accuracy (calibrated)"
+  },
+  "arousal_v_vh": {
+    "value": 0.325,
+    "source": "arousal_calibration.json",
+    "path": "baseline_params.v_vh",
+    "desc": "Arousal v_vh (calibrated)"
+  },
+  "arousal_Q_REF": {
+    "value": 4.2883,
+    "source": "arousal_calibration.json",
+    "path": "Q_M_WAKE_MEAN_BASELINE",
+    "desc": "Arousal Q_REF"
+  },
+  "arousal_recovery_r_v_vh": {
+    "value": 0.4234,
+    "source": "arousal_recovery.json",
+    "path": "v_vh.r",
+    "desc": "Arousal recovery r(v_vh)"
+  },
+  "arousal_recovery_r_v_vc": {
+    "value": 0.3651,
+    "source": "arousal_recovery.json",
+    "path": "v_vc.r",
+    "desc": "Arousal recovery r(v_vc)"
+  },
+  "arousal_recovery_r_v_vm": {
+    "value": 0.3095,
+    "source": "arousal_recovery.json",
+    "path": "v_vm.r",
+    "desc": "Arousal recovery r(v_vm)"
+  },
+  "arousal_recovery_r_v_mv": {
+    "value": 0.0529,
+    "source": "arousal_recovery.json",
+    "path": "v_mv.r",
+    "desc": "Arousal recovery r(v_mv)"
+  },
+  "rl_recovery_r_beta": {
+    "value": 0.8989,
+    "source": "rl_mood_recovery.json",
+    "path": "recovery.beta.r",
+    "desc": "RL recovery r(beta)"
+  },
+  "rl_recovery_r_alpha": {
+    "value": 0.6726,
+    "source": "rl_mood_recovery.json",
+    "path": "recovery.alpha.r",
+    "desc": "RL recovery r(alpha)"
+  },
+  "rl_recovery_r_alpha_n1000": {
+    "value": 0.7725,
+    "source": "rl_mood_alpha_recovery_ci.json",
+    "path": "results.N1000.r",
+    "desc": "RL recovery r(alpha) at N=1000"
+  },
+  "rl_tau_m": {
+    "value": 2.163,
+    "source": "rl_mood_calibration.json",
+    "path": "calibrated.tau_m",
+    "desc": "RL tau_m"
+  },
+  "rl_lam_default": {
+    "value": 0.4898,
+    "source": "rl_mood_calibration.json",
+    "path": "calibrated.lam_default",
+    "desc": "RL lambda default"
+  },
+  "rl_lam_crit": {
+    "value": 0.9796,
+    "source": "rl_mood_calibration.json",
+    "path": "calibrated.lambda_crit",
+    "desc": "RL lambda_crit standalone"
+  },
+  "arousal_sigma_h": {
+    "value": 0.008,
+    "source": "arousal_d18_final.json",
+    "path": "sigma_h",
+    "desc": "Arousal sigma_h (D18)"
+  },
+  "p3_s_value_optimum": {
+    "value": 3.0,
+    "source": "p3_value_coupling_fine.json",
+    "path": "optimum_s",
+    "desc": "s_value optimum (D29)"
+  },
+  "p3_lam_crit_closed": {
+    "value": 1.1,
+    "source": "p3_value_coupling_sweep.json",
+    "path": "lambda_crit.lambda_crit_numerical",
+    "desc": "lambda_crit closed-loop (D30)"
+  },
+  "p3_lam_crit_standalone": {
+    "value": 0.9795910894225225,
+    "source": "p3_value_coupling_sweep.json",
+    "path": "lambda_crit.lambda_crit_standalone",
+    "desc": "lambda_crit standalone"
+  },
+  "p4_map_n_unstable": {
+    "value": 0,
+    "source": "p4_impossible_map_kappa_value.json",
+    "path": "counts",
+    "desc": "Impossible map: UNSTABLE nodes",
+    "absent_key": "UNSTABLE"
+  },
+  "p4_map_n_chance": {
+    "value": 0,
+    "source": "p4_impossible_map_kappa_value.json",
+    "path": "counts",
+    "desc": "Impossible map: CHANCE nodes",
+    "absent_key": "CHANCE"
+  },
+  "p6_ddm_n_multi": {
+    "value": 53,
+    "source": "p6_ddm_comparison.json",
+    "path": "n_multi",
+    "desc": "DDM multi-condition datasets"
+  },
+  "p6_ddm_n_single": {
+    "value": 20,
+    "source": "p6_ddm_comparison.json",
+    "path": "n_single",
+    "desc": "DDM single-condition datasets"
+  },
+  "p6_arousal_n_subjects": {
+    "value": 32,
+    "source": "p6_arousal_comparison.json",
+    "path": "robustness.fixed_50.n_subjects",
+    "desc": "Arousal N controls"
+  },
+  "p6_arousal_model_sd": {
+    "value": 0.5,
+    "source": "p6_arousal_comparison.json",
+    "path": "retained.variance_decomposition.model_sd_h",
+    "desc": "Arousal model SD (h)"
+  },
+  "p6_rl_diag_acc": {
+    "value": 0.7062134502923976,
+    "source": "p6_rl_comparison.json",
+    "path": "diagnostic.alpha_eckstein.acc",
+    "desc": "Model ACC at alpha=0.76, beta=2.50 (diagnostic)"
+  },
+  "p6_rl_diag_full_ws": {
+    "value": 0.9373117308149487,
+    "source": "p6_rl_comparison.json",
+    "path": "diagnostic.persistence.runs.alpha076_beta300_p03.ws",
+    "desc": "Model WS at full Eckstein params"
+  },
+  "p6_rl_diag_full_acc": {
+    "value": 0.7259502923976608,
+    "source": "p6_rl_comparison.json",
+    "path": "diagnostic.persistence.runs.alpha076_beta300_p03.acc",
+    "desc": "Model ACC at full Eckstein params"
+  },
+  "p6_rl_ratio_alpha": {
+    "value": 5.1,
+    "source": "p6_rl_comparison.json",
+    "path": "diagnostic.eckstein_concordance.ratio_alpha",
+    "desc": "Alpha ratio our/Eckstein"
+  },
+  "p6_rl_ratio_beta": {
+    "value": 1.2,
+    "source": "p6_rl_comparison.json",
+    "path": "diagnostic.eckstein_concordance.ratio_beta",
+    "desc": "Beta ratio our/Eckstein"
+  },
+  "ddm_mdd_kappa": {
+    "value": 0.4417,
+    "source": "ddm_resolution.json",
+    "path": "resolution.kappa.mdd",
+    "desc": "DDM MDD kappa"
+  },
+  "ddm_mdd_a": {
+    "value": 0.0447,
+    "source": "ddm_resolution.json",
+    "path": "resolution.a.mdd",
+    "desc": "DDM MDD a"
+  },
+  "ddm_mdd_Ter": {
+    "value": 0.0095,
+    "source": "ddm_resolution.json",
+    "path": "resolution.Ter.mdd",
+    "desc": "DDM MDD Ter"
+  },
+  "rl_mdd_beta": {
+    "value": -0.4,
+    "source": "rl_mood_resolution.json",
+    "path": "beta.mdd",
+    "desc": "RL MDD beta"
+  },
+  "rl_mdd_alpha": {
+    "value": -0.06,
+    "source": "rl_mood_resolution.json",
+    "path": "alpha.mdd",
+    "desc": "RL MDD alpha"
+  },
+  "rl_recovery_r_tau_m": {
+    "value": 0.0085,
+    "source": "rl_mood_recovery.json",
+    "path": "recovery.tau_m.r",
+    "desc": "RL recovery r(tau_m)"
+  },
+  "rl_recovery_r_lambda": {
+    "value": 0.0054,
+    "source": "rl_mood_recovery.json",
+    "path": "recovery.lambda.r",
+    "desc": "RL recovery r(lambda)"
+  }
+}

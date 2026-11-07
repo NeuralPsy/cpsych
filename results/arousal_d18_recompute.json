@@ -1,0 +1,30 @@
+{
+  "sigma_h_old": 0.01,
+  "sigma_h_new": 0.006,
+  "rule": "minimum sigma_h on grid step 0.0005 where median circ SD in [15,30] min and 0% spurious",
+  "Q_REF": "4.2883 (unchanged, deterministic)",
+  "sleep_old": {
+    "mean": 8.27,
+    "ci": [
+      0.02,
+      10.36
+    ]
+  },
+  "sleep_new": {
+    "mean": 8.67,
+    "ci": [
+      7.58,
+      9.76
+    ]
+  },
+  "onset_csd_old": 30.2,
+  "onset_csd_new": 15.7,
+  "deferred4_old": {
+    "median_trans": 15.0,
+    "excess_pct": 0.0
+  },
+  "deferred4_new": {
+    "median_trans": 15.0,
+    "excess_pct": 0.0
+  }
+}

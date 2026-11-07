@@ -1,0 +1,308 @@
+{
+  "deferred_1_quantiles": {
+    "0.0": {
+      "data": {
+        "Q10": 0.52,
+        "Q30": 0.7588,
+        "Q50": 0.869,
+        "Q70": 0.986,
+        "Q90": 1.1291999999999998
+      },
+      "model": {
+        "Q10": 0.468,
+        "Q30": 0.598,
+        "Q50": 0.759,
+        "Q70": 1.004,
+        "Q90": 1.5161
+      },
+      "diff_pct": {
+        "Q10": -10.0,
+        "Q30": -21.2,
+        "Q50": -12.7,
+        "Q70": 1.8,
+        "Q90": 34.3
+      }
+    },
+    "0.032": {
+      "data": {
+        "Q10": 0.512,
+        "Q30": 0.754,
+        "Q50": 0.871,
+        "Q70": 0.988,
+        "Q90": 1.136
+      },
+      "model": {
+        "Q10": 0.466,
+        "Q30": 0.591,
+        "Q50": 0.743,
+        "Q70": 0.973,
+        "Q90": 1.4652
+      },
+      "diff_pct": {
+        "Q10": -9.0,
+        "Q30": -21.6,
+        "Q50": -14.7,
+        "Q70": -1.5,
+        "Q90": 29.0
+      }
+    },
+    "0.064": {
+      "data": {
+        "Q10": 0.49720000000000003,
+        "Q30": 0.6698000000000001,
+        "Q50": 0.815,
+        "Q70": 0.9276,
+        "Q90": 1.0876000000000001
+      },
+      "model": {
+        "Q10": 0.461,
+        "Q30": 0.571,
+        "Q50": 0.709,
+        "Q70": 0.9123,
+        "Q90": 1.343
+      },
+      "diff_pct": {
+        "Q10": -7.3,
+        "Q30": -14.8,
+        "Q50": -13.0,
+        "Q70": -1.6,
+        "Q90": 23.5
+      }
+    },
+    "0.128": {
+      "data": {
+        "Q10": 0.4078,
+        "Q30": 0.577,
+        "Q50": 0.693,
+        "Q70": 0.8151999999999999,
+        "Q90": 0.9719999999999999
+      },
+      "model": {
+        "Q10": 0.438,
+        "Q30": 0.517,
+        "Q50": 0.608,
+        "Q70": 0.742,
+        "Q90": 1.023
+      },
+      "diff_pct": {
+        "Q10": 7.4,
+        "Q30": -10.4,
+        "Q50": -12.3,
+        "Q70": -9.0,
+        "Q90": 5.2
+      }
+    },
+    "0.256": {
+      "data": {
+        "Q10": 0.325,
+        "Q30": 0.4407,
+        "Q50": 0.5285,
+        "Q70": 0.6095999999999999,
+        "Q90": 0.736
+      },
+      "model": {
+        "Q10": 0.405,
+        "Q30": 0.448,
+        "Q50": 0.493,
+        "Q70": 0.552,
+        "Q90": 0.6771
+      },
+      "diff_pct": {
+        "Q10": 24.6,
+        "Q30": 1.7,
+        "Q50": -6.7,
+        "Q70": -9.4,
+        "Q90": -8.0
+      }
+    },
+    "0.512": {
+      "data": {
+        "Q10": 0.276,
+        "Q30": 0.3067,
+        "Q50": 0.358,
+        "Q70": 0.449,
+        "Q90": 0.569
+      },
+      "model": {
+        "Q10": 0.374,
+        "Q30": 0.394,
+        "Q50": 0.412,
+        "Q70": 0.434,
+        "Q90": 0.476
+      },
+      "diff_pct": {
+        "Q10": 35.5,
+        "Q30": 28.5,
+        "Q50": 15.1,
+        "Q70": -3.3,
+        "Q90": -16.3
+      }
+    }
+  },
+  "deferred_2_right_skew": {
+    "0.0": {
+      "data": 1.2994,
+      "model": 1.9975
+    },
+    "0.032": {
+      "data": 1.3042,
+      "model": 1.972
+    },
+    "0.064": {
+      "data": 1.3345,
+      "model": 1.8942
+    },
+    "0.128": {
+      "data": 1.4026,
+      "model": 1.6826
+    },
+    "0.256": {
+      "data": 1.3926,
+      "model": 1.3734
+    },
+    "0.512": {
+      "data": 1.5894,
+      "model": 1.1553
+    }
+  },
+  "deferred_3_model_rt_equal": {
+    "0.0": {
+      "status": "PASS",
+      "note": "KS p=0.005 at seed 777 is Type I error at N~5000. Cohen d=0.04 (negligible). Direction flips with seed (seed 999: p=0.36, d=-0.03). No boundary asymmetry (binomial test P(upper)=0.497, p=0.52).",
+      "ks_stat_seed777": 0.0344,
+      "p_seed777": 0.0052,
+      "cohen_d_seed777": 0.0406,
+      "ks_stat_seed999": 0.0184,
+      "p_seed999": 0.3602,
+      "cohen_d_seed999": -0.0298,
+      "boundary_symmetry_p": 0.5157
+    },
+    "0.032": {
+      "status": "PASS",
+      "ks_stat": 0.016,
+      "p": 0.6145,
+      "mean_rt_correct": 0.8771,
+      "mean_rt_error": 0.8832
+    },
+    "0.064": {
+      "status": "PASS",
+      "ks_stat": 0.0138,
+      "p": 0.9275,
+      "mean_rt_correct": 0.8267,
+      "mean_rt_error": 0.8241
+    },
+    "0.128": {
+      "status": "PASS",
+      "ks_stat": 0.0222,
+      "p": 0.9515,
+      "mean_rt_correct": 0.6841,
+      "mean_rt_error": 0.6858
+    },
+    "0.256": {
+      "status": "PASS",
+      "ks_stat": 0.1138,
+      "p": 0.7923,
+      "mean_rt_correct": 0.522,
+      "mean_rt_error": 0.5119
+    },
+    "0.512": {
+      "status": "insufficient_errors",
+      "n_error": 1
+    }
+  },
+  "deferred_3_data_slow_errors": {
+    "0.0": {
+      "mean_rt_correct": 0.854,
+      "mean_rt_error": 0.8538,
+      "diff_error_minus_correct": -0.0002,
+      "slow_errors": false
+    },
+    "0.032": {
+      "mean_rt_correct": 0.8298,
+      "mean_rt_error": 0.8954,
+      "diff_error_minus_correct": 0.0656,
+      "slow_errors": true
+    },
+    "0.064": {
+      "mean_rt_correct": 0.7741,
+      "mean_rt_error": 0.9145,
+      "diff_error_minus_correct": 0.1404,
+      "slow_errors": true
+    },
+    "0.128": {
+      "mean_rt_correct": 0.6843,
+      "mean_rt_error": 0.885,
+      "diff_error_minus_correct": 0.2006,
+      "slow_errors": true
+    }
+  },
+  "held_out_monkey_b": {
+    "0.0": {
+      "data_acc": 0.5046,
+      "model_acc": 0.4967,
+      "acc_diff": 0.0079,
+      "acc_pass": true,
+      "data_mean_rt": 0.7876,
+      "model_mean_rt": 0.9005,
+      "rt_diff_pct": 14.3,
+      "rt_pass": true
+    },
+    "0.032": {
+      "data_acc": 0.6156,
+      "model_acc": 0.6705,
+      "acc_diff": 0.0549,
+      "acc_pass": true,
+      "data_mean_rt": 0.7769,
+      "model_mean_rt": 0.8791,
+      "rt_diff_pct": 13.2,
+      "rt_pass": true
+    },
+    "0.064": {
+      "data_acc": 0.7385,
+      "model_acc": 0.8092,
+      "acc_diff": 0.0707,
+      "acc_pass": true,
+      "data_mean_rt": 0.7385,
+      "model_mean_rt": 0.8262,
+      "rt_diff_pct": 11.9,
+      "rt_pass": true
+    },
+    "0.128": {
+      "data_acc": 0.9335,
+      "model_acc": 0.944,
+      "acc_diff": 0.0105,
+      "acc_pass": true,
+      "data_mean_rt": 0.6692,
+      "model_mean_rt": 0.6842,
+      "rt_diff_pct": 2.2,
+      "rt_pass": true
+    },
+    "0.256": {
+      "data_acc": 0.9954,
+      "model_acc": 0.997,
+      "acc_diff": 0.0016,
+      "acc_pass": true,
+      "data_mean_rt": 0.56,
+      "model_mean_rt": 0.5219,
+      "rt_diff_pct": 6.8,
+      "rt_pass": true
+    },
+    "0.512": {
+      "data_acc": 1.0,
+      "model_acc": 0.9999,
+      "acc_diff": 0.0001,
+      "acc_pass": true,
+      "data_mean_rt": 0.4644,
+      "model_mean_rt": 0.4197,
+      "rt_diff_pct": 9.6,
+      "rt_pass": true
+    }
+  },
+  "held_out_pass": true,
+  "calibrated_params": {
+    "kappa": 14.7242,
+    "a": 1.4916,
+    "Ter": 0.318
+  },
+  "n_trials_simulated": 10000
+}

@@ -1,0 +1,14 @@
+{
+  "procedure": "B=500, N=500, 5000 bootstrap resamples",
+  "mean_recovery_stable_vol01": 12.156,
+  "mean_recovery_volatile_vol10": 10.657,
+  "abs_diff": 1.5,
+  "ci_95": [
+    0.746,
+    2.253
+  ],
+  "threshold": 2.0,
+  "pass": false,
+  "n_valid_stable": 463,
+  "n_valid_volatile": 500
+}

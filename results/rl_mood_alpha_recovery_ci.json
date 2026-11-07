@@ -1,0 +1,22 @@
+{
+  "procedure": "5^4 x 20 recovery at 3 trial counts, bootstrap CI (2000 resamples)",
+  "results": {
+    "N500": {
+      "r": 0.6726,
+      "ci_lo": 0.6591,
+      "ci_hi": 0.6856
+    },
+    "N1000": {
+      "r": 0.7725,
+      "ci_lo": 0.7628,
+      "ci_hi": 0.7821
+    },
+    "N2000": {
+      "r": 0.8647,
+      "ci_lo": 0.8585,
+      "ci_hi": 0.8705
+    }
+  },
+  "fitted_threshold": "N1000",
+  "verdict": "alpha fitted at N1000"
+}

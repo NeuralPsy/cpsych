@@ -1,0 +1,59 @@
+{
+  "grid": {
+    "kappa": [
+      5.0,
+      11.25,
+      17.5,
+      23.75,
+      30.0
+    ],
+    "a": [
+      0.5,
+      1.125,
+      1.75,
+      2.375,
+      3.0
+    ],
+    "Ter": [
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5
+    ],
+    "n_per_param": 5,
+    "n_replicates": 20,
+    "n_trials": 3500,
+    "n_points": 125,
+    "B_total": 2500
+  },
+  "recovery": {
+    "kappa": {
+      "r": 0.9966,
+      "rmse": 0.7395
+    },
+    "a": {
+      "r": 0.9999,
+      "rmse": 0.0125
+    },
+    "Ter": {
+      "r": 0.9999,
+      "rmse": 0.002
+    }
+  },
+  "cross_correlations": {
+    "kappa_true_vs_a_hat": 0.0004,
+    "kappa_true_vs_Ter_hat": -0.0004,
+    "a_true_vs_Ter_hat": 0.0004
+  },
+  "classification": {
+    "kappa": "fitted",
+    "a": "fitted",
+    "Ter": "fitted"
+  },
+  "simulation": {
+    "steps": 6184889,
+    "elapsed_sec": 252.7,
+    "min_trial_count": 3500
+  }
+}

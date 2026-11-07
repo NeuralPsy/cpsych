@@ -1,0 +1,32 @@
+{
+  "Q_M_WAKE_MEAN_BASELINE": 4.2883,
+  "settled_day": 3,
+  "settling_tol": 0.0001,
+  "daily_means": [
+    4.2874,
+    4.2884,
+    4.2883,
+    4.2883
+  ],
+  "baseline_params": {
+    "tau_v": 10.0,
+    "tau_m": 10.0,
+    "v_vm": -1.9,
+    "v_mv": -1.9,
+    "A": 1.0,
+    "v_vc": -3.2,
+    "v_vh": 0.325,
+    "Q_max": 100.0,
+    "theta_sig": 10.0,
+    "sigma_q": 3.0,
+    "chi": 39600.0,
+    "mu": 3.6,
+    "c0": 1.0,
+    "omega": 7.27220521664304e-05,
+    "alpha": 57600.0,
+    "sigma_vv": 0.0,
+    "sigma_vm": 0.0,
+    "sigma_h": 0.0
+  },
+  "procedure": "day-by-day until |delta| < 0.0001, Q_thresh=1.0, T_trim=1800, day 0 transient skipped"
+}

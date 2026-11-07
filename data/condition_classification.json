@@ -1,0 +1,91 @@
+{
+  "_note": "Per-dataset classification of physical difficulty for DDM comparison. D52. Criterion: column encodes physical stimulus difficulty (contrast, coherence, SOA, noise, orientation) vs task manipulation (cue validity, instruction, block).",
+  "Denison_2018": {
+    "is_multi": false,
+    "note": "Difficulty column = cue validity (valid/neutral/invalid), not physical"
+  },
+  "Desender_2022_Exp2B": {
+    "is_multi": true,
+    "difficulty_col": "Difficulty",
+    "note": "Dot difference — physical"
+  },
+  "Filevich_unpub": {
+    "is_multi": true,
+    "difficulty_col": "Difficulty",
+    "note": "Contrast difference (QUEST) — physical"
+  },
+  "Locke_2020": {
+    "is_multi": true,
+    "difficulty_col": "Difficulty",
+    "note": "Orientation magnitude (degrees) — physical"
+  },
+  "Massoni_unpub": {
+    "is_multi": true,
+    "difficulty_col": "Difficulty",
+    "note": "Dot difference level — physical"
+  },
+  "Rausch_2018_Expt1": {
+    "is_multi": true,
+    "difficulty_col": "difficulty",
+    "note": "SOA (8-133 ms) — physical"
+  },
+  "Rausch_2018_Expt2": {
+    "is_multi": true,
+    "difficulty_col": "difficulty",
+    "note": "SOA (8-133 ms) — physical"
+  },
+  "Siedlecka_2021": {
+    "is_multi": true,
+    "difficulty_col": "Difficulty",
+    "note": "Dot ratio — physical"
+  },
+  "Song_2011": {
+    "is_multi": true,
+    "difficulty_col": "Difficulty",
+    "note": "Pop-out magnitude — physical"
+  },
+  "Wierzchon_2014": {
+    "is_multi": true,
+    "difficulty_col": "Difficulty",
+    "note": "Stimulus duration (16-192 ms) — physical"
+  },
+  "Ye_2018": {
+    "is_multi": true,
+    "difficulty_col": "difficulty",
+    "note": "Temporal/resolution diff — physical"
+  },
+  "CalderTravis_unpub": {
+    "is_multi": true,
+    "difficulty_col": "Dot_diff",
+    "note": "Dot count difference — physical"
+  },
+  "Sherman_unpub_Expt1": {
+    "is_multi": true,
+    "transform": "sherman_contrast_diff",
+    "note": "PE level from contrast difference — physical. Conditions {0,2}=LowPE, {1,3}=HighPE"
+  },
+  "Sherman_unpub_Expt2": {
+    "is_multi": true,
+    "difficulty_col": "NoiseLevel",
+    "note": "RDK noise level — physical"
+  },
+  "Xue_2024_Exp2": {
+    "is_multi": true,
+    "difficulty_col": "condition",
+    "note": "Gabor contrast (3 levels) — physical"
+  },
+  "Xue_2024_Exp3": {
+    "is_multi": true,
+    "difficulty_col": "condition",
+    "note": "Gabor contrast (2 levels, continuous values) — physical"
+  },
+  "Samaha_2016": {
+    "is_multi": true,
+    "difficulty_col": "Condition",
+    "note": "PE level {0.5, 1.0} = high/low contrast — physical"
+  },
+  "Zheng_2023": {
+    "is_multi": false,
+    "note": "Condition = cue type/timing, not physical"
+  }
+}

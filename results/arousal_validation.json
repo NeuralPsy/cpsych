@@ -1,0 +1,174 @@
+{
+  "recovery": {
+    "v_vh": {
+      "r": 0.105,
+      "rmse": 0.2554,
+      "verdict": "internal",
+      "confusion": [
+        [
+          2,
+          0,
+          4,
+          17,
+          477
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          499
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          499
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          499
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          498
+        ]
+      ]
+    },
+    "v_vc": {
+      "r": 0.02,
+      "rmse": 5.5084,
+      "verdict": "internal",
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          0,
+          499
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          500
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          499
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          500
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          500
+        ]
+      ]
+    },
+    "v_mv": {
+      "r": 0.011,
+      "rmse": 2.5086,
+      "verdict": "internal",
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          2,
+          498
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          498
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          499
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          500
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          498
+        ]
+      ]
+    },
+    "grid": "5x5x5=125, 20 reps=2500",
+    "cycling_grid_points": "109/125",
+    "cross_correlation": {
+      "v_vh_true_x_v_vh_hat": 0.105,
+      "v_vh_true_x_v_vc_hat": 0.04,
+      "v_vh_true_x_v_mv_hat": -0.005,
+      "v_vc_true_x_v_vh_hat": 0.034,
+      "v_vc_true_x_v_vc_hat": 0.02,
+      "v_vc_true_x_v_mv_hat": -0.043,
+      "v_mv_true_x_v_vh_hat": -0.095,
+      "v_mv_true_x_v_vc_hat": -0.04,
+      "v_mv_true_x_v_mv_hat": 0.011
+    }
+  },
+  "deferred_1_2": {
+    "deprivation": {
+      "onset_advance_h": 0.7,
+      "duration_excess_h": 0.91,
+      "passed": false
+    },
+    "rebound": {
+      "H_recovery": 15.6,
+      "H_baseline": 13.35,
+      "H_excess_pct": 16.8,
+      "passed": false
+    }
+  },
+  "deferred_3": {
+    "rise_times_min": [
+      22.0,
+      22.0
+    ],
+    "mean_min": 22.0,
+    "max_min": 22.0,
+    "passed": true
+  },
+  "deferred_4": {
+    "det_count": 15,
+    "noisy_median": 25.0,
+    "count_diff_pct": 66.7,
+    "outside_2h_pct": 0.0,
+    "count_pass": false,
+    "timing_pass": true,
+    "passed": false
+  }
+}

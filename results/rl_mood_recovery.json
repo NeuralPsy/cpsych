@@ -1,0 +1,85 @@
+{
+  "procedure": "grid 5^4 x 20 reps, 500 trials, p_reward=0.75, vol=0.3, seed=42",
+  "grid": {
+    "alpha": [
+      0.05,
+      0.125,
+      0.2,
+      0.275,
+      0.35
+    ],
+    "beta": [
+      1.0,
+      2.25,
+      3.5,
+      4.75,
+      6.0
+    ],
+    "tau_m": [
+      1.0,
+      3.25,
+      5.5,
+      7.75,
+      10.0
+    ],
+    "lambda": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ]
+  },
+  "n_points": 625,
+  "n_stable": 475,
+  "n_reps": 20,
+  "n_trials": 500,
+  "observables": [
+    "win_stay",
+    "lose_switch",
+    "recovery_speed",
+    "choice_autocorr"
+  ],
+  "recovery": {
+    "alpha": {
+      "r": 0.6726,
+      "cross_correlations": {
+        "beta": 0.0808,
+        "tau_m": -0.0036,
+        "lambda": -0.0096
+      },
+      "max_cross": 0.0808,
+      "class": "exploratory"
+    },
+    "beta": {
+      "r": 0.8989,
+      "cross_correlations": {
+        "alpha": 0.0994,
+        "tau_m": 0.0044,
+        "lambda": 0.0058
+      },
+      "max_cross": 0.0994,
+      "class": "fitted"
+    },
+    "tau_m": {
+      "r": 0.0085,
+      "cross_correlations": {
+        "alpha": 0.0862,
+        "beta": 0.0565,
+        "lambda": 0.0084
+      },
+      "max_cross": 0.0862,
+      "class": "exploratory"
+    },
+    "lambda": {
+      "r": 0.0054,
+      "cross_correlations": {
+        "alpha": -0.1233,
+        "beta": 0.0025,
+        "tau_m": -0.0111
+      },
+      "max_cross": 0.1233,
+      "class": "exploratory"
+    }
+  }
+}

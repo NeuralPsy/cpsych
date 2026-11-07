@@ -1,0 +1,71 @@
+{
+  "procedure": "sweep lam at fixed tau_m, 500 trials, B=200, p_reward=0.75, vol=0.3, seed=42",
+  "corrected_formula": "lam_crit = (1 - gamma) / (gamma * r_mean), gamma = exp(-dt/tau_m)",
+  "naive_formula_bug": "v1.1 had lam_crit = (1-gamma)/r_mean, missing factor 1/gamma. Decay before update, not after.",
+  "r_mean_baseline": 0.6048,
+  "alpha": 0.15,
+  "beta": 3.0,
+  "dt": 1.0,
+  "sweep_results": [
+    {
+      "tau_m": 1.0,
+      "gamma": 0.3679,
+      "naive": 1.0452,
+      "corrected": 2.8413,
+      "numerical": 2.9412,
+      "ratio_corrected_over_numerical": 0.966,
+      "r_mean_at_crit": 0.581
+    },
+    {
+      "tau_m": 2.16,
+      "gamma": 0.6294,
+      "naive": 0.6128,
+      "corrected": 0.9736,
+      "numerical": 1.2312,
+      "ratio_corrected_over_numerical": 0.791,
+      "r_mean_at_crit": 0.5779
+    },
+    {
+      "tau_m": 5.0,
+      "gamma": 0.8187,
+      "naive": 0.2997,
+      "corrected": 0.3661,
+      "numerical": 0.6533,
+      "ratio_corrected_over_numerical": 0.56,
+      "r_mean_at_crit": 0.5637
+    },
+    {
+      "tau_m": 10.0,
+      "gamma": 0.9048,
+      "naive": 0.1574,
+      "corrected": 0.1739,
+      "numerical": 0.4523,
+      "ratio_corrected_over_numerical": 0.385,
+      "r_mean_at_crit": 0.5519
+    },
+    {
+      "tau_m": 20.0,
+      "gamma": 0.9512,
+      "naive": 0.0806,
+      "corrected": 0.0848,
+      "numerical": 0.3518,
+      "ratio_corrected_over_numerical": 0.241,
+      "r_mean_at_crit": 0.5413
+    }
+  ],
+  "stability_test": {
+    "tau_m": 2.16,
+    "lam_crit_formula": 0.9736,
+    "lam_crit_numerical": 1.2308,
+    "below_crit": {
+      "lambda": 0.9846,
+      "frac_stable": 1.0,
+      "pass_flag": true
+    },
+    "above_crit": {
+      "lambda": 1.477,
+      "frac_diverged": 0.925,
+      "pass_flag": true
+    }
+  }
+}

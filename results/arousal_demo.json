@@ -1,0 +1,178 @@
+{
+  "model": "Phillips-Robinson 2007/2008, 3 state variables",
+  "parameter_set": "PR08 with adjusted v_vh (0.19 -> 0.25)",
+  "params": {
+    "tau_v": 10.0,
+    "tau_m": 10.0,
+    "v_vm": -1.9,
+    "v_mv": -1.9,
+    "A": 1.0,
+    "v_vc": -3.2,
+    "v_vh": 0.25,
+    "Q_max": 100.0,
+    "theta": 10.0,
+    "sigma_q": 3.0,
+    "chi_s": 39600.0,
+    "chi_h": 11.0,
+    "mu": 3.6,
+    "c0": 1.0,
+    "omega": 7.27220521664304e-05,
+    "alpha_s": 57600.0,
+    "alpha_h": 16.0
+  },
+  "gain_normalization": {
+    "formula": "g = Q(V_m) / Q_m_wake_mean",
+    "Q_m_wake_mean": 4.332,
+    "wake_demarcation": {
+      "Q_thresh": 1.0,
+      "T_trim_s": 1800,
+      "note": "Wake = Q_m > Q_thresh. Trimmed: first and last 30 min of each wake period excluded. Mean computed from day 2+ (skip transient)."
+    }
+  },
+  "dt_s": 1.0,
+  "T_days": 7,
+  "transitions": [
+    {
+      "time_h": 0.01,
+      "type": "WAKE->SLEEP"
+    },
+    {
+      "time_h": 7.28,
+      "type": "SLEEP->WAKE"
+    },
+    {
+      "time_h": 23.29,
+      "type": "WAKE->SLEEP"
+    },
+    {
+      "time_h": 30.9,
+      "type": "SLEEP->WAKE"
+    },
+    {
+      "time_h": 47.34,
+      "type": "WAKE->SLEEP"
+    },
+    {
+      "time_h": 54.89,
+      "type": "SLEEP->WAKE"
+    },
+    {
+      "time_h": 71.34,
+      "type": "WAKE->SLEEP"
+    },
+    {
+      "time_h": 78.89,
+      "type": "SLEEP->WAKE"
+    },
+    {
+      "time_h": 95.34,
+      "type": "WAKE->SLEEP"
+    },
+    {
+      "time_h": 102.89,
+      "type": "SLEEP->WAKE"
+    },
+    {
+      "time_h": 119.34,
+      "type": "WAKE->SLEEP"
+    },
+    {
+      "time_h": 126.89,
+      "type": "SLEEP->WAKE"
+    },
+    {
+      "time_h": 143.34,
+      "type": "WAKE->SLEEP"
+    },
+    {
+      "time_h": 150.89,
+      "type": "SLEEP->WAKE"
+    },
+    {
+      "time_h": 167.34,
+      "type": "WAKE->SLEEP"
+    }
+  ],
+  "sleep_durations_h": [
+    7.27,
+    7.61,
+    7.55,
+    7.55,
+    7.55,
+    7.55,
+    7.55
+  ],
+  "wake_durations_h": [
+    16.01,
+    16.44,
+    16.45,
+    16.45,
+    16.45,
+    16.45,
+    16.45
+  ],
+  "mean_sleep_h": 7.56,
+  "mean_wake_h": 16.45,
+  "Vm_range": [
+    -14.34,
+    0.88
+  ],
+  "H_range": [
+    7.02,
+    15.0
+  ],
+  "Qm_range": [
+    0.03,
+    4.567
+  ],
+  "gain_per_day": [
+    {
+      "day": 2,
+      "Qm_wake_max": 4.567,
+      "Qm_wake_min": 3.403,
+      "g_max": 1.054,
+      "g_min": 0.786,
+      "swing_pct": 25.5
+    },
+    {
+      "day": 3,
+      "Qm_wake_max": 4.567,
+      "Qm_wake_min": 3.404,
+      "g_max": 1.054,
+      "g_min": 0.786,
+      "swing_pct": 25.5
+    },
+    {
+      "day": 4,
+      "Qm_wake_max": 4.567,
+      "Qm_wake_min": 3.404,
+      "g_max": 1.054,
+      "g_min": 0.786,
+      "swing_pct": 25.5
+    },
+    {
+      "day": 5,
+      "Qm_wake_max": 4.567,
+      "Qm_wake_min": 3.404,
+      "g_max": 1.054,
+      "g_min": 0.786,
+      "swing_pct": 25.5
+    },
+    {
+      "day": 6,
+      "Qm_wake_max": 4.567,
+      "Qm_wake_min": 3.404,
+      "g_max": 1.054,
+      "g_min": 0.786,
+      "swing_pct": 25.5
+    },
+    {
+      "day": 7,
+      "Qm_wake_max": 4.567,
+      "Qm_wake_min": 3.404,
+      "g_max": 1.054,
+      "g_min": 0.786,
+      "swing_pct": 25.5
+    }
+  ]
+}

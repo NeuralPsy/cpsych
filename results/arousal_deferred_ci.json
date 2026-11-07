@@ -1,0 +1,73 @@
+{
+  "v_vh": 0.325,
+  "Q_REF": 4.2883,
+  "det": {
+    "sleep_h": 8.852722222222223,
+    "onset_advance": 1.0533333333333275,
+    "dur_excess": 1.2722777777777772,
+    "H_excess_pct": 20.91983336005612
+  },
+  "ci": {
+    "onset_adv (h)": {
+      "det": 1.053,
+      "mean_linear": -0.407,
+      "mean_circular": 1.273,
+      "ci_linear": [
+        -1.295,
+        0.344
+      ],
+      "ci_circular": [
+        0.827,
+        1.766
+      ],
+      "sd_linear": 4.205,
+      "sd_circular": 2.405,
+      "threshold": 1.0,
+      "status": "INDETERMINATE",
+      "note": "Linear SD inflated by 7% wrapping artifacts (bimodal distribution). Circular statistics correct.",
+      "N_for_hw_0.5_circular": 89
+    },
+    "dur_excess (h)": {
+      "det": 1.2722777777777772,
+      "mean": 1.5907850220458548,
+      "ci": [
+        1.375737648148149,
+        1.8141381198192232
+      ],
+      "threshold": 1.0,
+      "status": "PASS",
+      "half_width": 0.21920023583553716,
+      "std": 1.1354994606466406
+    },
+    "H_excess (%)": {
+      "det": 20.91983336005612,
+      "mean": 25.12717145367443,
+      "ci": [
+        22.365073275862514,
+        27.950211723152456
+      ],
+      "threshold": 20.0,
+      "status": "PASS",
+      "half_width": 2.7925692236449713,
+      "std": 14.38233449673368
+    }
+  },
+  "power": {
+    "onset_advance_sd": 4.204820355783774,
+    "N_for_halfwidth_0.5": 272,
+    "N_actual": 100
+  },
+  "sleep_noisy": {
+    "v_vh": 0.325,
+    "B": 200,
+    "det_h": 8.85,
+    "mean_h": 8.315,
+    "sd_h": 0.943,
+    "ci_95_mean": [
+      8.182,
+      8.445
+    ],
+    "ceiling": 9.0,
+    "status": "OK (upper CI 8.45 < 9.0)"
+  }
+}

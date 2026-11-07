@@ -1,0 +1,19 @@
+{
+  "method": "vectorized_grid",
+  "N": 15,
+  "n_rep": 20,
+  "B": 4500,
+  "T": 86.4,
+  "wall_s": 481.0,
+  "wall_min": 8.0,
+  "us_per_rep_step": 0.621,
+  "trial_count_mean": 25.3,
+  "trial_count_range": [
+    11,
+    49
+  ],
+  "all_finite": true,
+  "budget_3_maps_min": 24.0,
+  "previous_sequential_h": 17.7,
+  "speedup_vs_sequential": 44.0
+}

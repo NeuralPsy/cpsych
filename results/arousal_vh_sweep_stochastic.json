@@ -1,0 +1,309 @@
+{
+  "window": [
+    0.3,
+    0.34
+  ],
+  "width_pct": 9.5,
+  "lower_bound_by": "H_excess >= 20%",
+  "upper_bound_by": "sleep <= 9h",
+  "B": 50,
+  "sweep": [
+    {
+      "v_vh": 0.25,
+      "sleep_mean": 7.15,
+      "sleep_ci": [
+        6.9,
+        7.4
+      ],
+      "de_mean": 1.39,
+      "de_ci": [
+        1.11,
+        1.7
+      ],
+      "he_mean": 20.9,
+      "he_ci": [
+        17.5,
+        24.4
+      ],
+      "oa_circ_mean": 1.01,
+      "oa_ci": [
+        0.66,
+        1.53
+      ],
+      "sleep_ok": false,
+      "dep_ok": false,
+      "both": false,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.26,
+      "sleep_mean": 7.48,
+      "sleep_ci": [
+        7.26,
+        7.68
+      ],
+      "de_mean": 1.3,
+      "de_ci": [
+        1.03,
+        1.59
+      ],
+      "he_mean": 20.5,
+      "he_ci": [
+        17.1,
+        24.0
+      ],
+      "oa_circ_mean": 1.14,
+      "oa_ci": [
+        0.7,
+        1.71
+      ],
+      "sleep_ok": true,
+      "dep_ok": false,
+      "both": false,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.27,
+      "sleep_mean": 7.53,
+      "sleep_ci": [
+        7.25,
+        7.77
+      ],
+      "de_mean": 1.49,
+      "de_ci": [
+        1.19,
+        1.8
+      ],
+      "he_mean": 21.8,
+      "he_ci": [
+        18.2,
+        25.4
+      ],
+      "oa_circ_mean": 1.6,
+      "oa_ci": [
+        0.95,
+        2.38
+      ],
+      "sleep_ok": true,
+      "dep_ok": false,
+      "both": false,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.28,
+      "sleep_mean": 7.8,
+      "sleep_ci": [
+        7.56,
+        8.03
+      ],
+      "de_mean": 1.45,
+      "de_ci": [
+        1.17,
+        1.75
+      ],
+      "he_mean": 21.7,
+      "he_ci": [
+        18.6,
+        24.7
+      ],
+      "oa_circ_mean": 1.53,
+      "oa_ci": [
+        0.97,
+        2.24
+      ],
+      "sleep_ok": true,
+      "dep_ok": false,
+      "both": false,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.29,
+      "sleep_mean": 8.12,
+      "sleep_ci": [
+        7.92,
+        8.31
+      ],
+      "de_mean": 1.37,
+      "de_ci": [
+        1.15,
+        1.61
+      ],
+      "he_mean": 21.3,
+      "he_ci": [
+        18.5,
+        24.1
+      ],
+      "oa_circ_mean": 1.2,
+      "oa_ci": [
+        0.89,
+        1.66
+      ],
+      "sleep_ok": true,
+      "dep_ok": false,
+      "both": false,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.3,
+      "sleep_mean": 7.97,
+      "sleep_ci": [
+        7.64,
+        8.27
+      ],
+      "de_mean": 1.75,
+      "de_ci": [
+        1.42,
+        2.09
+      ],
+      "he_mean": 24.2,
+      "he_ci": [
+        20.8,
+        27.7
+      ],
+      "oa_circ_mean": 1.31,
+      "oa_ci": [
+        0.94,
+        1.85
+      ],
+      "sleep_ok": true,
+      "dep_ok": true,
+      "both": true,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.31,
+      "sleep_mean": 8.34,
+      "sleep_ci": [
+        8.08,
+        8.57
+      ],
+      "de_mean": 1.6,
+      "de_ci": [
+        1.35,
+        1.87
+      ],
+      "he_mean": 23.3,
+      "he_ci": [
+        20.2,
+        26.4
+      ],
+      "oa_circ_mean": 1.31,
+      "oa_ci": [
+        0.99,
+        1.78
+      ],
+      "sleep_ok": true,
+      "dep_ok": true,
+      "both": true,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.32,
+      "sleep_mean": 8.48,
+      "sleep_ci": [
+        8.22,
+        8.7
+      ],
+      "de_mean": 1.7,
+      "de_ci": [
+        1.41,
+        2.0
+      ],
+      "he_mean": 24.4,
+      "he_ci": [
+        21.3,
+        27.7
+      ],
+      "oa_circ_mean": 1.8,
+      "oa_ci": [
+        1.21,
+        2.57
+      ],
+      "sleep_ok": true,
+      "dep_ok": true,
+      "both": true,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.33,
+      "sleep_mean": 8.45,
+      "sleep_ci": [
+        8.11,
+        8.75
+      ],
+      "de_mean": 1.95,
+      "de_ci": [
+        1.56,
+        2.35
+      ],
+      "he_mean": 26.6,
+      "he_ci": [
+        22.3,
+        30.6
+      ],
+      "oa_circ_mean": 1.28,
+      "oa_ci": [
+        0.54,
+        2.02
+      ],
+      "sleep_ok": true,
+      "dep_ok": true,
+      "both": true,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.34,
+      "sleep_mean": 8.6,
+      "sleep_ci": [
+        8.29,
+        8.88
+      ],
+      "de_mean": 2.01,
+      "de_ci": [
+        1.7,
+        2.34
+      ],
+      "he_mean": 26.8,
+      "he_ci": [
+        23.7,
+        29.8
+      ],
+      "oa_circ_mean": 1.5,
+      "oa_ci": [
+        1.07,
+        2.06
+      ],
+      "sleep_ok": true,
+      "dep_ok": true,
+      "both": true,
+      "note": "onset_advance reported but excluded from boundary definition"
+    },
+    {
+      "v_vh": 0.35,
+      "sleep_mean": 8.81,
+      "sleep_ci": [
+        8.54,
+        9.04
+      ],
+      "de_mean": 2.03,
+      "de_ci": [
+        1.7,
+        2.38
+      ],
+      "he_mean": 26.7,
+      "he_ci": [
+        23.3,
+        30.1
+      ],
+      "oa_circ_mean": 1.66,
+      "oa_ci": [
+        1.25,
+        2.23
+      ],
+      "sleep_ok": false,
+      "dep_ok": true,
+      "both": false,
+      "note": "onset_advance reported but excluded from boundary definition"
+    }
+  ]
+}

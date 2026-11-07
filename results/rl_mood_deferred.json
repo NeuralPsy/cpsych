@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "alpha": 0.15,
+    "beta": 2.5,
+    "tau_m": 2.163,
+    "lam": 0.4898,
+    "gamma": 0.6298,
+    "n_trials": 500,
+    "B": 200,
+    "p_reward": 0.75,
+    "volatility": 0.3,
+    "seed": 42
+  },
+  "deferred_1_rutledge_coefficients": {
+    "w_CR_mean": 0.0,
+    "w_RPE_mean": 0.6298,
+    "ratio_RPE_over_CR": 95077.7582,
+    "criterion": "w_RPE > w_CR > 0",
+    "qualitative_match": true
+  },
+  "deferred_2_volatility_invariance": {
+    "recovery_stable_vol01": 10.35,
+    "recovery_volatile_vol10": 8.57,
+    "abs_difference": 1.77,
+    "criterion": "|diff| < 2 trials",
+    "pass": true,
+    "behrens_note": "Behrens 2007: humans show faster recovery in volatile blocks. RW by construction does not. This documents the limitation, not a failure."
+  },
+  "deferred_3_mood_autocorrelation": {
+    "gamma_model": 0.74,
+    "gamma_target": 0.63,
+    "abs_difference": 0.11,
+    "criterion": "|gamma_model - 0.63| < 0.15",
+    "pass": true
+  }
+}

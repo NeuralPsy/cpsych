@@ -1,0 +1,16 @@
+{
+  "dataset": "Zou et al. 2022",
+  "source": "https://osf.io/jde6m/",
+  "doi": "10.3389/fpsyt.2022.800290",
+  "license": "CC-By Attribution 4.0 International",
+  "citation": "Zou, A.R. et al. Impulsivity Relates to Multi-Trial Choice Strategy in Probabilistic Reversal Learning. Front. Psychiatry 13 (2022).",
+  "date_fetched": "2026-08-04",
+  "files": [
+    {
+      "file": "Zou_ProbSwitchImpulsivity_SI_v2.pdf",
+      "size": 1291364,
+      "sha256": "a8c43e21005f24af05e346625f59d2bbe43452be41abc548b1284df419d91fc2",
+      "url": "https://osf.io/download/3zcqa/"
+    }
+  ]
+}

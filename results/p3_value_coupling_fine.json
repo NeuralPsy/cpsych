@@ -1,0 +1,159 @@
+{
+  "s_values": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    6.0,
+    8.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "n_trials": 500,
+  "n_seeds": 40,
+  "coherence": 0.128,
+  "p_reward": 0.75,
+  "volatility": 0.3,
+  "per_s": [
+    {
+      "s": 0.0,
+      "accuracy_mean": 0.9484999999999999,
+      "accuracy_se": 0.002611273635603895,
+      "recovery_mean": 4.032886904761905,
+      "recovery_se": 0.02261316055515829,
+      "accuracy_gain": 0.0
+    },
+    {
+      "s": 0.5,
+      "accuracy_mean": 0.95225,
+      "accuracy_se": 0.0024235175881350624,
+      "recovery_mean": 4.021298076923077,
+      "recovery_se": 0.011882177739645986,
+      "accuracy_gain": 0.003750000000000142
+    },
+    {
+      "s": 1.0,
+      "accuracy_mean": 0.9549999999999998,
+      "accuracy_se": 0.0020463381929681115,
+      "recovery_mean": 4.017550505050505,
+      "recovery_se": 0.012705543394547093,
+      "accuracy_gain": 0.00649999999999995
+    },
+    {
+      "s": 1.5,
+      "accuracy_mean": 0.9566250000000001,
+      "accuracy_se": 0.002521082976619371,
+      "recovery_mean": 4.077410714285714,
+      "recovery_se": 0.03161480624914406,
+      "accuracy_gain": 0.00812500000000016
+    },
+    {
+      "s": 2.0,
+      "accuracy_mean": 0.9611249999999998,
+      "accuracy_se": 0.0025586098520485683,
+      "recovery_mean": 4.0297835497835495,
+      "recovery_se": 0.01323361825094591,
+      "accuracy_gain": 0.012624999999999886
+    },
+    {
+      "s": 2.5,
+      "accuracy_mean": 0.9622499999999998,
+      "accuracy_se": 0.0022357185645782885,
+      "recovery_mean": 4.09270528083028,
+      "recovery_se": 0.028112972756789752,
+      "accuracy_gain": 0.013749999999999929
+    },
+    {
+      "s": 3.0,
+      "accuracy_mean": 0.9655000000000001,
+      "accuracy_se": 0.002376972864800943,
+      "recovery_mean": 4.111587301587301,
+      "recovery_se": 0.02984395831776613,
+      "accuracy_gain": 0.017000000000000237
+    },
+    {
+      "s": 3.5,
+      "accuracy_mean": 0.9637499999999999,
+      "accuracy_se": 0.002460627460628691,
+      "recovery_mean": 4.156056929181929,
+      "recovery_se": 0.03808176273403466,
+      "accuracy_gain": 0.015249999999999986
+    },
+    {
+      "s": 4.0,
+      "accuracy_mean": 0.96175,
+      "accuracy_se": 0.002718857756485249,
+      "recovery_mean": 4.143100579975579,
+      "recovery_se": 0.06140260857868973,
+      "accuracy_gain": 0.013250000000000095
+    },
+    {
+      "s": 4.5,
+      "accuracy_mean": 0.9636249999999998,
+      "accuracy_se": 0.003102355455939888,
+      "recovery_mean": 4.2838095238095235,
+      "recovery_se": 0.07015056844674432,
+      "accuracy_gain": 0.015124999999999944
+    },
+    {
+      "s": 5.0,
+      "accuracy_mean": 0.9615,
+      "accuracy_se": 0.0027053188351837567,
+      "recovery_mean": 4.2763618326118324,
+      "recovery_se": 0.07359271198802649,
+      "accuracy_gain": 0.013000000000000123
+    },
+    {
+      "s": 6.0,
+      "accuracy_mean": 0.959,
+      "accuracy_se": 0.0028295317633841815,
+      "recovery_mean": 4.653227813852814,
+      "recovery_se": 0.10281348562302708,
+      "accuracy_gain": 0.010500000000000065
+    },
+    {
+      "s": 8.0,
+      "accuracy_mean": 0.9574999999999999,
+      "accuracy_se": 0.0033957694268015298,
+      "recovery_mean": 4.8111507936507945,
+      "recovery_se": 0.11693500464833582,
+      "accuracy_gain": 0.009000000000000008
+    },
+    {
+      "s": 10.0,
+      "accuracy_mean": 0.9498750000000001,
+      "accuracy_se": 0.0044458108793559775,
+      "recovery_mean": 5.0019805194805205,
+      "recovery_se": 0.13061052306928225,
+      "accuracy_gain": 0.0013750000000002371
+    },
+    {
+      "s": 15.0,
+      "accuracy_mean": 0.948625,
+      "accuracy_se": 0.00481854328350384,
+      "recovery_mean": 5.843429834054834,
+      "recovery_se": 0.18644403333605764,
+      "accuracy_gain": 0.00012500000000015277
+    },
+    {
+      "s": 20.0,
+      "accuracy_mean": 0.9263749999999998,
+      "accuracy_se": 0.00766279057360959,
+      "recovery_mean": 7.016380147630147,
+      "recovery_se": 0.3743788239905169,
+      "accuracy_gain": -0.02212500000000006
+    }
+  ],
+  "optimum_s": 3.0,
+  "optimum_gain": 0.017000000000000237,
+  "baseline_accuracy": 0.9484999999999999,
+  "degradation_onset_s": 20.0
+}

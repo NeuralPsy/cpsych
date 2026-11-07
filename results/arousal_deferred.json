@@ -1,0 +1,33 @@
+{
+  "deferred_1_2": {
+    "deprivation": {
+      "onset_advance_h": 0.7,
+      "duration_excess_h": 0.91,
+      "passed": false
+    },
+    "rebound": {
+      "H_recovery": 15.6,
+      "H_baseline": 13.35,
+      "H_excess_pct": 16.8,
+      "passed": false
+    }
+  },
+  "deferred_3": {
+    "rise_times_min": [
+      22.0,
+      22.0
+    ],
+    "mean_min": 22.0,
+    "max_min": 22.0,
+    "passed": true
+  },
+  "deferred_4": {
+    "det_count": 15,
+    "noisy_median": 15.0,
+    "count_diff_pct": 0.0,
+    "outside_2h_pct": 0.0,
+    "count_pass": true,
+    "timing_pass": true,
+    "passed": true
+  }
+}

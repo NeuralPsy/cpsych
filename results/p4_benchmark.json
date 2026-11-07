@@ -1,0 +1,51 @@
+{
+  "T": 86.4,
+  "benchmarks": [
+    {
+      "B": 1,
+      "T": 86.4,
+      "wall_s": 6.375,
+      "total_replicate_steps": 172086,
+      "us_per_replicate_step": 37.0464,
+      "trial_count_median": 20,
+      "n_recordings": 2
+    },
+    {
+      "B": 100,
+      "T": 86.4,
+      "wall_s": 8.351,
+      "total_replicate_steps": 17208600,
+      "us_per_replicate_step": 0.4853,
+      "trial_count_median": 21,
+      "n_recordings": 2
+    },
+    {
+      "B": 1000,
+      "T": 86.4,
+      "wall_s": 26.947,
+      "total_replicate_steps": 172086000,
+      "us_per_replicate_step": 0.1566,
+      "trial_count_median": 23,
+      "n_recordings": 2
+    },
+    {
+      "B": 5000,
+      "T": 86.4,
+      "wall_s": 206.575,
+      "total_replicate_steps": 860430000,
+      "us_per_replicate_step": 0.2401,
+      "trial_count_median": 23,
+      "n_recordings": 2
+    }
+  ],
+  "description": "Triple composite: arousal(slow,dt=1) + DDM+RL(fast,dt=0.001). All P3 couplings. CompositeTask. Gate by is_wake.",
+  "memory": {
+    "B": 5000,
+    "peak_mb": 4.0,
+    "current_mb": 2.3,
+    "n_recordings": 2
+  },
+  "speedup_b1_to_bmax": 154.3,
+  "reference_us": 0.2401,
+  "reference_B": 5000
+}

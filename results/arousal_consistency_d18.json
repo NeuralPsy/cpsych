@@ -1,0 +1,32 @@
+{
+  "sigma_h": 0.008,
+  "v_vh": 0.325,
+  "N": 100,
+  "onset_advance": {
+    "circ_mean": 1.01,
+    "ci": [
+      0.85,
+      1.18
+    ],
+    "n_valid": 100,
+    "status": "INDETERMINATE"
+  },
+  "dur_excess": {
+    "mean": 1.4,
+    "ci": [
+      1.23,
+      1.57
+    ],
+    "n_valid": 100,
+    "status": "PASS"
+  },
+  "h_excess": {
+    "mean": 23.0,
+    "ci": [
+      21.1,
+      25.1
+    ],
+    "n_valid": 100,
+    "status": "PASS"
+  }
+}

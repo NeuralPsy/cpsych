@@ -1,0 +1,62 @@
+{
+  "kappa": 14.7242,
+  "a": 1.4916,
+  "Ter": 0.318,
+  "p_kappa_a": 21.9633,
+  "a_squared": 2.224998,
+  "rmse_sec": 0.01801,
+  "max_pct_error": 6.24,
+  "monkey": "N (monkey 2 in CSV)",
+  "n_trials": 3534,
+  "procedure": "closed-form: p from logistic MLE, a^2 and Ter from OLS",
+  "per_coherence": [
+    {
+      "coh": 0.0,
+      "n": 587,
+      "obs_acc": 0.4957,
+      "pred_acc": 0.5,
+      "obs_mean_rt": 0.8539,
+      "pred_mean_rt": 0.8743
+    },
+    {
+      "coh": 0.032,
+      "n": 591,
+      "obs_acc": 0.6616,
+      "pred_acc": 0.6688,
+      "obs_mean_rt": 0.852,
+      "pred_mean_rt": 0.8525
+    },
+    {
+      "coh": 0.064,
+      "n": 589,
+      "obs_acc": 0.8048,
+      "pred_acc": 0.8031,
+      "obs_mean_rt": 0.8015,
+      "pred_mean_rt": 0.7978
+    },
+    {
+      "coh": 0.128,
+      "n": 587,
+      "obs_acc": 0.9472,
+      "pred_acc": 0.9433,
+      "obs_mean_rt": 0.6949,
+      "pred_mean_rt": 0.6689
+    },
+    {
+      "coh": 0.256,
+      "n": 590,
+      "obs_acc": 0.9949,
+      "pred_acc": 0.9964,
+      "obs_mean_rt": 0.5299,
+      "pred_mean_rt": 0.5145
+    },
+    {
+      "coh": 0.512,
+      "n": 590,
+      "obs_acc": 1.0,
+      "pred_acc": 1.0,
+      "obs_mean_rt": 0.3925,
+      "pred_mean_rt": 0.417
+    }
+  ]
+}
