@@ -41,11 +41,9 @@ from `results/p10_model_comparison.json` and
 python article/report_p10_p11.py results
 ```
 
-`article/check_numbers.py` additionally compares each of those numbers against
-the manuscript text and against `article/literature_values.json`, which holds
-every figure taken from another paper together with the verbatim sentence it
-came from. It takes the results directory and the manuscript file as
-arguments; the manuscript is added here when that paper is published.
+That script is the whole of the public verification path for P10/P11: every
+figure it prints is read from the two JSON files, so each can be checked
+without re-running the fits.
 
 ### Level 2: Run test suite (~13 minutes)
 
@@ -173,9 +171,8 @@ src/cpsych/           Core platform (SDE kernel, modules, couplings, observables
 tests/                256 pytest tests
 experiments/          Analysis scripts, each writes to results/
 results/              JSON outputs -- sole source of numbers in the manuscript
-article/              Manuscript, numbers.json (64 entries), verification scripts
-                      biblio.py (citation keys -> AMA numbering), check_numbers.py,
-                      literature_values.json (sourced figures), report_p10_p11.py
+article/              Manuscript, numbers.json (64 entries), verification scripts,
+                      report_p10_p11.py (transfer-test numbers from results/)
 specs/                Module specifications (written before implementation)
 reports/              Progress log, 53 decisions, alternatives, Neuroblox evaluation
 research/             Input literature review (read-only)
