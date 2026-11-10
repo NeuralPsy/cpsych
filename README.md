@@ -1,7 +1,7 @@
 # CPsych: Modular Computational Psychiatry Platform
 
 [![CI](https://github.com/NeuralPsy/cpsych/actions/workflows/ci.yml/badge.svg)](https://github.com/NeuralPsy/cpsych/actions/workflows/ci.yml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24015477.svg)](https://doi.org/10.5281/zenodo.24015477)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24015476.svg)](https://doi.org/10.5281/zenodo.24015476)
 
 A platform for modelling mental functions as stochastic dynamical systems.
 Four modules -- Arousal (sleep-wake), DDM (decision-making), RL+Mood (reinforcement
@@ -217,8 +217,11 @@ the six gates, the module contract, and the parameter classification scheme
 
 If you use this software, please cite:
 
-> Vasilchenko, K. (2026). CPsych: Modular Computational Psychiatry Platform (v1.0).
-> Zenodo. https://doi.org/10.5281/zenodo.24015477
+> Vasilchenko, K. (2026). CPsych: Modular Computational Psychiatry Platform (v1.2).
+> Zenodo. https://doi.org/10.5281/zenodo.24112419
+
+That DOI identifies version 1.2. The DOI for all versions, which always resolves to the latest one, is
+https://doi.org/10.5281/zenodo.24015476.
 
 ## License
 

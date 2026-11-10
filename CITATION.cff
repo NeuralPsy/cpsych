@@ -8,8 +8,11 @@ authors:
     affiliation: "Holon Institute of Technology"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.24015477"
-    description: "Zenodo archive of the submission-ready platform"
+    value: "10.5281/zenodo.24112419"
+    description: "Zenodo archive of version 1.2"
+  - type: doi
+    value: "10.5281/zenodo.24015476"
+    description: "All versions; resolves to the latest"
 repository-code: "https://github.com/NeuralPsy/cpsych"
 license: MIT
 version: "1.2"
