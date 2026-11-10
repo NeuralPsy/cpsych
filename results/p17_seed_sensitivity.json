@@ -1,0 +1,433 @@
+{
+  "procedure": "every behavioural condition simulated over many seeds; two readings (inside the observed interquartile range; within two standard errors of the observed mean)",
+  "registered": false,
+  "n_subjects": 112,
+  "n_trials": 120,
+  "seeds": [
+    1000,
+    1199
+  ],
+  "n_seeds": 200,
+  "thresholds": {
+    "pass_share": 0.95,
+    "fail_share": 0.05,
+    "n_se": 2.0
+  },
+  "free_fit_medians_M1": {
+    "alpha": 0.9163357464892832,
+    "beta": 4.445081769895715
+  },
+  "observed": {
+    "ws": {
+      "mean": 0.9531658263514691,
+      "sd": 0.07151852205842797,
+      "se": 0.00675786512505313,
+      "n": 112,
+      "iqr": [
+        0.9382211538461538,
+        1.0
+      ]
+    },
+    "ls": {
+      "mean": 0.5553352313798091,
+      "sd": 0.1897366894925757,
+      "se": 0.017928431963644187,
+      "n": 112,
+      "iqr": [
+        0.42597402597402595,
+        0.7071538857436953
+      ]
+    },
+    "acc": {
+      "mean": 0.7323103827226787,
+      "sd": 0.05440949936318689,
+      "se": 0.0051412144383757045,
+      "n": 112,
+      "iqr": [
+        0.6946564885496184,
+        0.7709923664122137
+      ]
+    }
+  },
+  "conditions": {
+    "K1_calibrated_base": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.0,
+      "mean_n_in_iqr": 1.0,
+      "ws": {
+        "mean": 0.6818094089039987,
+        "sd_across_seeds": 0.006121460478174033,
+        "min": 0.6669002463658159,
+        "max": 0.6990551735030844,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.2713564174474704,
+        "combined_se": 0.009118169741469832,
+        "z": -29.759965556829858,
+        "within_2se": false
+      },
+      "ls": {
+        "mean": 0.4881253238373654,
+        "sd_across_seeds": 0.006028922939173268,
+        "min": 0.4728138154097751,
+        "max": 0.5084572669797641,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.06720990754244371,
+        "combined_se": 0.018914983068496472,
+        "z": -3.5532628974108906,
+        "within_2se": false
+      },
+      "acc": {
+        "mean": 0.5805245535714285,
+        "sd_across_seeds": 0.003807438126329115,
+        "min": 0.5700892857142856,
+        "max": 0.5895833333333333,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.15178582915125016,
+        "combined_se": 0.006397551952675912,
+        "z": -23.725611026536882,
+        "within_2se": false
+      },
+      "verdict_iqr": "fails",
+      "verdict_mean": "differs: ws, ls, acc"
+    },
+    "K2_calibrated_plus_persistence": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.0,
+      "mean_n_in_iqr": 0.0,
+      "ws": {
+        "mean": 0.813385926105257,
+        "sd_across_seeds": 0.00537284860253405,
+        "min": 0.7996568864248947,
+        "max": 0.8285857418096805,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.13977990024621212,
+        "combined_se": 0.008633437505082286,
+        "z": -16.190526677690922,
+        "within_2se": false
+      },
+      "ls": {
+        "mean": 0.31434360566707353,
+        "sd_across_seeds": 0.005508427564902709,
+        "min": 0.2982721142048291,
+        "max": 0.3276940057004342,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.24099162571273558,
+        "combined_se": 0.018755571090020122,
+        "z": -12.849068927630134,
+        "within_2se": false
+      },
+      "acc": {
+        "mean": 0.5696488095238095,
+        "sd_across_seeds": 0.0063692225078470196,
+        "min": 0.5508928571428571,
+        "max": 0.586235119047619,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.1626615731988692,
+        "combined_se": 0.008185296650447552,
+        "z": -19.87241026749779,
+        "within_2se": false
+      },
+      "verdict_iqr": "fails",
+      "verdict_mean": "differs: ws, ls, acc"
+    },
+    "K5_calibrated_published_structure": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.0,
+      "mean_n_in_iqr": 0.0,
+      "ws": {
+        "mean": 0.8246445417118565,
+        "sd_across_seeds": 0.004370768549279951,
+        "min": 0.8113592252692469,
+        "max": 0.8365552055537189,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.12852128463961254,
+        "combined_se": 0.008048127655534802,
+        "z": -15.969091214802834,
+        "within_2se": false
+      },
+      "ls": {
+        "mean": 0.3975193075250962,
+        "sd_across_seeds": 0.005184447673512759,
+        "min": 0.3844796318680985,
+        "max": 0.41174703292890047,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.15781592385471294,
+        "combined_se": 0.018662989319892204,
+        "z": -8.456090348104237,
+        "within_2se": false
+      },
+      "acc": {
+        "mean": 0.6448627232142857,
+        "sd_across_seeds": 0.004206471746836193,
+        "min": 0.634672619047619,
+        "max": 0.6555059523809523,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.08744765950839295,
+        "combined_se": 0.006642777315121586,
+        "z": -13.164321993652795,
+        "within_2se": false
+      },
+      "verdict_iqr": "fails",
+      "verdict_mean": "differs: ws, ls, acc"
+    },
+    "K6_calibrated_counterfactual_only": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.0,
+      "mean_n_in_iqr": 1.0,
+      "ws": {
+        "mean": 0.733884721756352,
+        "sd_across_seeds": 0.0047894722519704735,
+        "min": 0.7224412505170601,
+        "max": 0.7468396365584207,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.21928110459511707,
+        "combined_se": 0.008282981679371533,
+        "z": -26.4736918519606,
+        "within_2se": false
+      },
+      "ls": {
+        "mean": 0.5431052008782813,
+        "sd_across_seeds": 0.005734075172696032,
+        "min": 0.5271607825971617,
+        "max": 0.5602987792290565,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.012230030501527822,
+        "combined_se": 0.018823078673828774,
+        "z": -0.6497359286147067,
+        "within_2se": true
+      },
+      "acc": {
+        "mean": 0.6405773809523809,
+        "sd_across_seeds": 0.0031788225993102043,
+        "min": 0.6326636904761906,
+        "max": 0.6495535714285714,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.09173300177029775,
+        "combined_se": 0.006044584271829461,
+        "z": -15.176064663010104,
+        "within_2se": false
+      },
+      "verdict_iqr": "fails",
+      "verdict_mean": "differs: ws, acc"
+    },
+    "B_freefit_median_base": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 1.0,
+      "mean_n_in_iqr": 3.0,
+      "ws": {
+        "mean": 0.9808786779740877,
+        "sd_across_seeds": 0.0016233094829138297,
+        "min": 0.976180469587464,
+        "max": 0.9846886953545441,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": 0.027712851622618606,
+        "combined_se": 0.006950098900427772,
+        "z": 3.987403923261136,
+        "within_2se": false
+      },
+      "ls": {
+        "mean": 0.5096946427905198,
+        "sd_across_seeds": 0.006774075064738309,
+        "min": 0.4871442416792072,
+        "max": 0.5254828284558114,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.04564058858928932,
+        "combined_se": 0.01916550979383872,
+        "z": -2.38139183774604,
+        "within_2se": false
+      },
+      "acc": {
+        "mean": 0.7366246279761905,
+        "sd_across_seeds": 0.004041928691143448,
+        "min": 0.7265625,
+        "max": 0.7488095238095239,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": 0.0043142452535118725,
+        "combined_se": 0.006539822126453547,
+        "z": 0.6596884701283805,
+        "within_2se": true
+      },
+      "verdict_iqr": "reproduces",
+      "verdict_mean": "differs: ws, ls"
+    },
+    "C_freefit_per_subject_base": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.96,
+      "mean_n_in_iqr": 2.96,
+      "ws": {
+        "mean": 0.9431711406795875,
+        "sd_across_seeds": 0.0027663049856362673,
+        "min": 0.9358386604458347,
+        "max": 0.9512524197480149,
+        "share_seeds_in_iqr": 0.96,
+        "diff_from_observed_mean": -0.009994685671881554,
+        "combined_se": 0.007302135600080666,
+        "z": -1.3687346030346441,
+        "within_2se": true
+      },
+      "ls": {
+        "mean": 0.4870441296376915,
+        "sd_across_seeds": 0.006296032468695763,
+        "min": 0.4654292593894266,
+        "max": 0.5054111913132532,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.06829110174211761,
+        "combined_se": 0.019001807743525084,
+        "z": -3.5939265707699826,
+        "within_2se": false
+      },
+      "acc": {
+        "mean": 0.7271272321428571,
+        "sd_across_seeds": 0.0035104081569785344,
+        "min": 0.719047619047619,
+        "max": 0.7361607142857144,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.005183150579821549,
+        "combined_se": 0.0062253555183575055,
+        "z": -0.8325870810971884,
+        "within_2se": true
+      },
+      "verdict_iqr": "reproduces",
+      "verdict_mean": "differs: ls"
+    },
+    "D_freefit_per_subject_persistence": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.92,
+      "mean_n_in_iqr": 2.92,
+      "ws": {
+        "mean": 0.9417482465618271,
+        "sd_across_seeds": 0.0027285239513421987,
+        "min": 0.9313625634983218,
+        "max": 0.9502452916907073,
+        "share_seeds_in_iqr": 0.92,
+        "diff_from_observed_mean": -0.011417579789641974,
+        "combined_se": 0.007287906695441251,
+        "z": -1.5666473607275908,
+        "within_2se": true
+      },
+      "ls": {
+        "mean": 0.5458878746450996,
+        "sd_across_seeds": 0.005978753617360778,
+        "min": 0.5289588440028007,
+        "max": 0.5592385930628453,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.009447356734709533,
+        "combined_se": 0.01889905202628225,
+        "z": -0.49988521760622834,
+        "within_2se": true
+      },
+      "acc": {
+        "mean": 0.7290342261904763,
+        "sd_across_seeds": 0.003388047565447542,
+        "min": 0.7191220238095238,
+        "max": 0.7381696428571429,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.003276156532202368,
+        "combined_se": 0.006157187036877947,
+        "z": -0.5320865701464171,
+        "within_2se": true
+      },
+      "verdict_iqr": "indeterminate",
+      "verdict_mean": "reproduces"
+    },
+    "E_freefit_per_subject_published_structure": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.995,
+      "mean_n_in_iqr": 2.995,
+      "ws": {
+        "mean": 0.9480509267569149,
+        "sd_across_seeds": 0.0025592048087447784,
+        "min": 0.9374826469466436,
+        "max": 0.9544175878562565,
+        "share_seeds_in_iqr": 0.995,
+        "diff_from_observed_mean": -0.005114899594554134,
+        "combined_se": 0.007226221024955697,
+        "z": -0.7078249581475392,
+        "within_2se": true
+      },
+      "ls": {
+        "mean": 0.5477485291169067,
+        "sd_across_seeds": 0.0050362843369063225,
+        "min": 0.5325056072291058,
+        "max": 0.5602886656315749,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.007586702262902367,
+        "combined_se": 0.018622374515544105,
+        "z": -0.40739714780033787,
+        "within_2se": true
+      },
+      "acc": {
+        "mean": 0.7376000744047618,
+        "sd_across_seeds": 0.0035830827966711557,
+        "min": 0.7261904761904763,
+        "max": 0.7490327380952382,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": 0.005289691682083153,
+        "combined_se": 0.006266623351467966,
+        "z": 0.8441055709601623,
+        "within_2se": true
+      },
+      "verdict_iqr": "reproduces",
+      "verdict_mean": "reproduces"
+    },
+    "F_freefit_per_subject_counterfactual_only": {
+      "n_seeds": 200,
+      "share_seeds_all_three_in_iqr": 0.0,
+      "mean_n_in_iqr": 2.0,
+      "ws": {
+        "mean": 0.9040373273420235,
+        "sd_across_seeds": 0.0037272581253108075,
+        "min": 0.8944694241530439,
+        "max": 0.9153800911601261,
+        "share_seeds_in_iqr": 0.0,
+        "diff_from_observed_mean": -0.0491284990094456,
+        "combined_se": 0.007717589920506583,
+        "z": -6.365782519605656,
+        "within_2se": false
+      },
+      "ls": {
+        "mean": 0.6583174107751311,
+        "sd_across_seeds": 0.004901195678041869,
+        "min": 0.6478858863170464,
+        "max": 0.6732470682135051,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": 0.10298217939532195,
+        "combined_se": 0.018586295804960032,
+        "z": 5.540758657668603,
+        "within_2se": false
+      },
+      "acc": {
+        "mean": 0.7295792410714286,
+        "sd_across_seeds": 0.003327263035957098,
+        "min": 0.7209077380952381,
+        "max": 0.7367559523809524,
+        "share_seeds_in_iqr": 1.0,
+        "diff_from_observed_mean": -0.002731141651250102,
+        "combined_se": 0.006123950131394707,
+        "z": -0.4459771214087425,
+        "within_2se": true
+      },
+      "verdict_iqr": "fails",
+      "verdict_mean": "differs: ws, ls"
+    }
+  },
+  "summary": {
+    "calibrated_reproducing_by_iqr": [],
+    "calibrated_reproducing_by_mean": [],
+    "free_reproducing_by_iqr": [
+      "B_freefit_median_base",
+      "C_freefit_per_subject_base",
+      "E_freefit_per_subject_published_structure"
+    ],
+    "free_indeterminate_by_iqr": [
+      "D_freefit_per_subject_persistence"
+    ],
+    "free_failing_by_iqr": [
+      "F_freefit_per_subject_counterfactual_only"
+    ],
+    "free_reproducing_by_mean": [
+      "D_freefit_per_subject_persistence",
+      "E_freefit_per_subject_published_structure"
+    ]
+  }
+}

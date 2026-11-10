@@ -51,6 +51,12 @@ bounds and supersedes P10 as the source of the reported fits; P14 repeats the
 behavioural check at those fits and supersedes P11. P10 and P11 stay in the
 archive.
 
+Four further analyses (P15-P18) are printed by `article/report_p15_p18.py`.
+The learning module was calibrated with the affect coupling off (lambda = 0),
+so P16 and P18 repeat the transfer test at lambda = 0 and are the primary
+analysis; the lambda = 0.49 runs (P13-P15, P17) are kept as a sensitivity
+analysis. P15 replaces P12, which stays in the archive.
+
 ### Level 2: Run test suite (~13 minutes)
 
 256 tests covering module contracts, parameter recovery, integrator correctness,
@@ -158,6 +164,10 @@ python experiments/p11_free_fit_behaviour.py  # ~2 s, needs P10's output
 python experiments/p12_calibrated_all_structures.py  # ~5 s, calibrated values under all six structures
 python experiments/p13_bounds_sensitivity.py         # ~5 min, P10 refitted with wider optimiser bounds
 python experiments/p14_free_fit_behaviour_wide.py    # ~2 s, P11 repeated at the P13 fits
+python experiments/p15_calibrated_vs_wide.py            # ~10 s, calibrated values against the P13 fits
+python experiments/p16_split_and_affect_sensitivity.py  # ~10 min, split rule, lambda = 0 refit, missing rows
+python experiments/p17_seed_sensitivity.py              # ~1 min, behaviour over 200 seeds, lambda = 0.49
+python experiments/p18_transfer_lambda0.py              # ~1 min, calibrated values and behaviour at lambda = 0
 ```
 
 #### Step I. Rebuild and verify numbers
@@ -167,6 +177,7 @@ python article/build_numbers.py
 python article/verify_numbers.py
 python article/report_p10_p11.py results      # every transfer-test number
 python article/report_p12_p14.py results      # P12-P14: calibrated values, wider bounds
+python article/report_p15_p18.py results      # P15-P18: lambda = 0 (primary), seeds, split rule
 ```
 
 ## Repository Structure
