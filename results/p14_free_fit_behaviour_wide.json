@@ -1,0 +1,224 @@
+{
+  "procedure": "P11 repeated at the wide-bounds fits of P13; same simulation code, sample and seeds",
+  "registered": false,
+  "fits_from": "p13_bounds_sensitivity.json (per_subject_wide)",
+  "n_subjects": 112,
+  "age_window": [
+    18.0,
+    30.0
+  ],
+  "n_trials": 120,
+  "fixed": {
+    "tau_m": 2.163,
+    "lam": 0.49
+  },
+  "free_fit_medians_M1": {
+    "alpha": 0.9163357464892832,
+    "beta": 4.445081769895715
+  },
+  "data": {
+    "ws": 0.9531658263514691,
+    "ls": 0.5553352313798091,
+    "acc": 0.7323103827226787,
+    "ws_iqr": [
+      0.9382211538461538,
+      1.0
+    ],
+    "ls_iqr": [
+      0.42597402597402595,
+      0.7071538857436953
+    ],
+    "acc_iqr": [
+      0.6946564885496184,
+      0.7709923664122137
+    ]
+  },
+  "conditions": {
+    "A_calibrated": {
+      "ws": 0.6803139675419071,
+      "ls": 0.4872385129135382,
+      "acc": 0.5832589285714285
+    },
+    "B_freefit_median": {
+      "ws": 0.9810527565833309,
+      "ls": 0.5084190628008253,
+      "acc": 0.7391369047619047
+    },
+    "C_freefit_per_subject": {
+      "ws": 0.9410490834721393,
+      "ls": 0.4985962927768196,
+      "acc": 0.7265625
+    },
+    "D_freefit_per_subject_persistence": {
+      "ws": 0.9363225206836872,
+      "ls": 0.5421760018112084,
+      "acc": 0.7230654761904762
+    },
+    "E_freefit_per_subject_published_structure": {
+      "ws": 0.9467040132199404,
+      "ls": 0.5511848559717668,
+      "acc": 0.7311755952380953
+    },
+    "F_freefit_per_subject_counterfactual_only": {
+      "ws": 0.9019017113396747,
+      "ls": 0.6546992211222535,
+      "acc": 0.7243303571428571
+    }
+  },
+  "inside_observed_iqr": {
+    "A_calibrated": {
+      "ws_in_iqr": false,
+      "ls_in_iqr": true,
+      "acc_in_iqr": false,
+      "n_in_iqr": 1
+    },
+    "B_freefit_median": {
+      "ws_in_iqr": true,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 3
+    },
+    "C_freefit_per_subject": {
+      "ws_in_iqr": true,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 3
+    },
+    "D_freefit_per_subject_persistence": {
+      "ws_in_iqr": false,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 2
+    },
+    "E_freefit_per_subject_published_structure": {
+      "ws_in_iqr": true,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 3
+    },
+    "F_freefit_per_subject_counterfactual_only": {
+      "ws_in_iqr": false,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 2
+    }
+  },
+  "distance_outside_iqr": {
+    "A_calibrated": {
+      "ws": 0.2579071863042467,
+      "ls": 0.0,
+      "acc": 0.1113975599781899
+    },
+    "B_freefit_median": {
+      "ws": 0.0,
+      "ls": 0.0,
+      "acc": 0.0
+    },
+    "C_freefit_per_subject": {
+      "ws": 0.0,
+      "ls": 0.0,
+      "acc": 0.0
+    },
+    "D_freefit_per_subject_persistence": {
+      "ws": 0.0018986331624666342,
+      "ls": 0.0,
+      "acc": 0.0
+    },
+    "E_freefit_per_subject_published_structure": {
+      "ws": 0.0,
+      "ls": 0.0,
+      "acc": 0.0
+    },
+    "F_freefit_per_subject_counterfactual_only": {
+      "ws": 0.036319442506479116,
+      "ls": 0.0,
+      "acc": 0.0
+    }
+  },
+  "compared_with_p11": {
+    "A_calibrated": {
+      "p11": {
+        "ws": 0.6803139675419071,
+        "ls": 0.4872385129135382,
+        "acc": 0.5832589285714285
+      },
+      "diff": {
+        "ws": 0.0,
+        "ls": 0.0,
+        "acc": 0.0
+      },
+      "p11_n_in_iqr": 1
+    },
+    "B_freefit_median": {
+      "p11": {
+        "ws": 0.9796936745543432,
+        "ls": 0.5043078886218912,
+        "acc": 0.7401041666666667
+      },
+      "diff": {
+        "ws": 0.0013590820289877126,
+        "ls": 0.0041111741789340295,
+        "acc": -0.0009672619047619291
+      },
+      "p11_n_in_iqr": 3
+    },
+    "C_freefit_per_subject": {
+      "p11": {
+        "ws": 0.9410490834721393,
+        "ls": 0.4984887925292022,
+        "acc": 0.7273809523809524
+      },
+      "diff": {
+        "ws": 0.0,
+        "ls": 0.00010750024761740917,
+        "acc": -0.0008184523809523503
+      },
+      "p11_n_in_iqr": 3
+    },
+    "D_freefit_per_subject_persistence": {
+      "p11": {
+        "ws": 0.9363735410918503,
+        "ls": 0.5429740959695443,
+        "acc": 0.7222470238095238
+      },
+      "diff": {
+        "ws": -5.102040816318265e-05,
+        "ls": -0.0007980941583358714,
+        "acc": 0.0008184523809524613
+      },
+      "p11_n_in_iqr": 2
+    },
+    "E_freefit_per_subject_published_structure": {
+      "p11": {
+        "ws": 0.9458835261548452,
+        "ls": 0.5565722257364134,
+        "acc": 0.7315476190476191
+      },
+      "diff": {
+        "ws": 0.0008204870650951879,
+        "ls": -0.005387369764646599,
+        "acc": -0.00037202380952383596
+      },
+      "p11_n_in_iqr": 3
+    }
+  },
+  "control_vs_p11": {
+    "p11_A": {
+      "ws": 0.6803139675419071,
+      "ls": 0.4872385129135382,
+      "acc": 0.5832589285714285
+    },
+    "p14_A": {
+      "ws": 0.6803139675419071,
+      "ls": 0.4872385129135382,
+      "acc": 0.5832589285714285
+    },
+    "abs_diff": {
+      "ws": 0.0,
+      "ls": 0.0,
+      "acc": 0.0
+    },
+    "reproduces_p11": true
+  },
+  "conclusion": "free-fit parameters reproduce behaviour under: B_freefit_median, C_freefit_per_subject, E_freefit_per_subject_published_structure"
+}

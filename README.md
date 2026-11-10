@@ -45,6 +45,12 @@ That script is the whole of the public verification path for P10/P11: every
 figure it prints is read from the two JSON files, so each can be checked
 without re-running the fits.
 
+Three later analyses (P12-P14) are printed the same way by
+`article/report_p12_p14.py`. P13 refits the six structures with wider optimiser
+bounds and supersedes P10 as the source of the reported fits; P14 repeats the
+behavioural check at those fits and supersedes P11. P10 and P11 stay in the
+archive.
+
 ### Level 2: Run test suite (~13 minutes)
 
 256 tests covering module contracts, parameter recovery, integrator correctness,
@@ -149,6 +155,9 @@ Requires the Eckstein 2022 dataset from Step A.
 ```bash
 python experiments/p10_model_comparison.py    # ~5 min, six models, 112 subjects
 python experiments/p11_free_fit_behaviour.py  # ~2 s, needs P10's output
+python experiments/p12_calibrated_all_structures.py  # ~5 s, calibrated values under all six structures
+python experiments/p13_bounds_sensitivity.py         # ~5 min, P10 refitted with wider optimiser bounds
+python experiments/p14_free_fit_behaviour_wide.py    # ~2 s, P11 repeated at the P13 fits
 ```
 
 #### Step I. Rebuild and verify numbers
@@ -157,6 +166,7 @@ python experiments/p11_free_fit_behaviour.py  # ~2 s, needs P10's output
 python article/build_numbers.py
 python article/verify_numbers.py
 python article/report_p10_p11.py results      # every transfer-test number
+python article/report_p12_p14.py results      # P12-P14: calibrated values, wider bounds
 ```
 
 ## Repository Structure

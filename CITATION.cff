@@ -12,5 +12,5 @@ identifiers:
     description: "Zenodo archive of the submission-ready platform"
 repository-code: "https://github.com/NeuralPsy/cpsych"
 license: MIT
-version: "1.1"
+version: "1.2"
 date-released: "2026-11-10"

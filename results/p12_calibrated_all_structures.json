@@ -1,0 +1,309 @@
+{
+  "procedure": "alpha and beta clamped at the calibrated values under each P10 structure; persistence, where present, fitted per participant; likelihood on observed sequences and simulated behaviour compared with the free fits of P10 and the observed data",
+  "registered": false,
+  "n_subjects": 112,
+  "sample_provenance": {
+    "demographics_rows": 322,
+    "age_window": [
+      18.0,
+      30.0
+    ],
+    "n_in_age_window": 115,
+    "n_with_usable_file": 112,
+    "min_trials_required": 50,
+    "excluded_above_age_max": [
+      {
+        "id": 425,
+        "age": 31.0
+      },
+      {
+        "id": 433,
+        "age": 50.0
+      }
+    ],
+    "trial_counts": {
+      "min": 124,
+      "max": 131,
+      "median": 131.0
+    }
+  },
+  "calibrated": {
+    "alpha": 0.15,
+    "beta": 2.5
+  },
+  "criterion": {
+    "behaviour": "all three observables inside observed IQR",
+    "dbic_decisive": 10.0
+  },
+  "distinct_conditions": [
+    "M1",
+    "M2",
+    "M5",
+    "M6"
+  ],
+  "note_on_identity": "with alpha+ = alpha- the valence split is inert: M3 = M1 and M4 = M2. Six structures give four distinct conditions.",
+  "identity_check": {
+    "M3_vs_M1_nll_abs_diff": 0.0,
+    "M4_vs_M2_nll_abs_diff": 0.0,
+    "holds": true
+  },
+  "data": {
+    "ws": 0.9531658263514691,
+    "ls": 0.5553352313798091,
+    "acc": 0.7323103827226787,
+    "ws_iqr": [
+      0.9382211538461538,
+      1.0
+    ],
+    "ls_iqr": [
+      0.42597402597402595,
+      0.7071538857436953
+    ],
+    "acc_iqr": [
+      0.6946564885496184,
+      0.7709923664122137
+    ]
+  },
+  "structures": {
+    "M1": {
+      "same_as": null,
+      "clamped": {
+        "alpha": 0.15,
+        "beta": 2.5
+      },
+      "free_parameters_here": [],
+      "counterfactual": false,
+      "nll_calibrated": 8837.684901060935,
+      "nll_free": 5352.141536563868,
+      "bic_calibrated": 17675.36980212187,
+      "bic_free": 11796.002169650546,
+      "dbic": 5879.367632471323,
+      "n_free_better": 109,
+      "n_free_better_by_10": 107,
+      "mean_choice_prob_calibrated": 0.5474970972149709,
+      "mean_choice_prob_free": 0.6990047497628424,
+      "behaviour": {
+        "ws": 0.6803139675419071,
+        "ls": 0.4872385129135382,
+        "acc": 0.5832589285714285,
+        "ws_in_iqr": false,
+        "ls_in_iqr": true,
+        "acc_in_iqr": false,
+        "n_in_iqr": 1,
+        "seed": 42
+      }
+    },
+    "M2": {
+      "same_as": null,
+      "clamped": {
+        "alpha": 0.15,
+        "beta": 2.5
+      },
+      "free_parameters_here": [
+        "persistence"
+      ],
+      "counterfactual": false,
+      "nll_calibrated": 7569.064209780239,
+      "nll_free": 4930.723537448164,
+      "bic_calibrated": 15683.987967821882,
+      "bic_free": 11499.025719680543,
+      "dbic": 4184.962248141339,
+      "n_free_better": 109,
+      "n_free_better_by_10": 103,
+      "mean_choice_prob_calibrated": 0.5999032188682988,
+      "mean_choice_prob_free": 0.7192785497603228,
+      "persistence": {
+        "median": 0.7658161476568546,
+        "iqr": [
+          0.33529832338150534,
+          1.2547057387847251
+        ],
+        "n_negative": 8,
+        "n_positive": 104,
+        "n_at_lower_bound": 0,
+        "n_at_upper_bound": 5,
+        "bounds": [
+          -2.0,
+          2.0
+        ]
+      },
+      "behaviour": {
+        "ws": 0.8117080792570374,
+        "ls": 0.31159924889939383,
+        "acc": 0.5674851190476191,
+        "ws_in_iqr": false,
+        "ls_in_iqr": false,
+        "acc_in_iqr": false,
+        "n_in_iqr": 0,
+        "seed": 52
+      }
+    },
+    "M3": {
+      "same_as": "M1",
+      "clamped": {
+        "alpha": 0.15,
+        "beta": 2.5
+      },
+      "free_parameters_here": [],
+      "counterfactual": false,
+      "nll_calibrated": 8837.684901060935,
+      "nll_free": 5290.4793978852995,
+      "bic_calibrated": 17675.36980212187,
+      "bic_free": 12218.537440554814,
+      "dbic": 5456.832361567056,
+      "n_free_better": 108,
+      "n_free_better_by_10": 105,
+      "mean_choice_prob_calibrated": 0.5474970972149709,
+      "mean_choice_prob_free": 0.7020867475395137,
+      "behaviour": {
+        "ws": 0.6803139675419071,
+        "ls": 0.4872385129135382,
+        "acc": 0.5832589285714285,
+        "ws_in_iqr": false,
+        "ls_in_iqr": true,
+        "acc_in_iqr": false,
+        "n_in_iqr": 1,
+        "seed": 42,
+        "copied_from": "M1"
+      }
+    },
+    "M4": {
+      "same_as": "M2",
+      "clamped": {
+        "alpha": 0.15,
+        "beta": 2.5
+      },
+      "free_parameters_here": [
+        "persistence"
+      ],
+      "counterfactual": false,
+      "nll_calibrated": 7569.064209780239,
+      "nll_free": 4877.2504640882735,
+      "bic_calibrated": 15683.987967821882,
+      "bic_free": 11937.939121222167,
+      "dbic": 3746.048846599715,
+      "n_free_better": 107,
+      "n_free_better_by_10": 96,
+      "mean_choice_prob_calibrated": 0.5999032188682988,
+      "mean_choice_prob_free": 0.7219872311612409,
+      "persistence": {
+        "median": 0.7658161476568546,
+        "iqr": [
+          0.33529832338150534,
+          1.2547057387847251
+        ],
+        "n_negative": 8,
+        "n_positive": 104,
+        "n_at_lower_bound": 0,
+        "n_at_upper_bound": 5,
+        "bounds": [
+          -2.0,
+          2.0
+        ]
+      },
+      "behaviour": {
+        "ws": 0.8117080792570374,
+        "ls": 0.31159924889939383,
+        "acc": 0.5674851190476191,
+        "ws_in_iqr": false,
+        "ls_in_iqr": false,
+        "acc_in_iqr": false,
+        "n_in_iqr": 0,
+        "seed": 52,
+        "copied_from": "M2"
+      }
+    },
+    "M5": {
+      "same_as": null,
+      "clamped": {
+        "alpha": 0.15,
+        "beta": 2.5
+      },
+      "free_parameters_here": [
+        "persistence"
+      ],
+      "counterfactual": true,
+      "nll_calibrated": 6878.253809146193,
+      "nll_free": 4648.298443003545,
+      "bic_calibrated": 14302.367166553791,
+      "bic_free": 11480.03507905271,
+      "dbic": 2822.3320875010813,
+      "n_free_better": 103,
+      "n_free_better_by_10": 86,
+      "mean_choice_prob_calibrated": 0.6285092320111527,
+      "mean_choice_prob_free": 0.7336509690758916,
+      "persistence": {
+        "median": 0.6552309756723522,
+        "iqr": [
+          0.15626114636993071,
+          1.0881102574338968
+        ],
+        "n_negative": 20,
+        "n_positive": 92,
+        "n_at_lower_bound": 0,
+        "n_at_upper_bound": 1,
+        "bounds": [
+          -2.0,
+          2.0
+        ]
+      },
+      "behaviour": {
+        "ws": 0.8278007449930357,
+        "ls": 0.3946344930595999,
+        "acc": 0.6448660714285716,
+        "ws_in_iqr": false,
+        "ls_in_iqr": false,
+        "acc_in_iqr": false,
+        "n_in_iqr": 0,
+        "seed": 55
+      }
+    },
+    "M6": {
+      "same_as": null,
+      "clamped": {
+        "alpha": 0.15,
+        "beta": 2.5
+      },
+      "free_parameters_here": [],
+      "counterfactual": true,
+      "nll_calibrated": 7780.535521506423,
+      "nll_free": 5483.619979689098,
+      "bic_calibrated": 15561.071043012846,
+      "bic_free": 12058.959055901007,
+      "dbic": 3502.111987111839,
+      "n_free_better": 105,
+      "n_free_better_by_10": 91,
+      "mean_choice_prob_calibrated": 0.5888396295814144,
+      "mean_choice_prob_free": 0.6920617282601383,
+      "behaviour": {
+        "ws": 0.735154031855439,
+        "ls": 0.5473140817428374,
+        "acc": 0.6439732142857143,
+        "ws_in_iqr": false,
+        "ls_in_iqr": true,
+        "acc_in_iqr": false,
+        "n_in_iqr": 1,
+        "seed": 56
+      }
+    }
+  },
+  "control_vs_p11": {
+    "p11_A": {
+      "ws": 0.6803139675419071,
+      "ls": 0.4872385129135382,
+      "acc": 0.5832589285714285
+    },
+    "p12_M1": {
+      "ws": 0.6803139675419071,
+      "ls": 0.4872385129135382,
+      "acc": 0.5832589285714285
+    },
+    "abs_diff": {
+      "ws": 0.0,
+      "ls": 0.0,
+      "acc": 0.0
+    },
+    "reproduces_p11": true
+  },
+  "verdict": "calibrated values fail on every structure"
+}
