@@ -23,14 +23,29 @@ pip install -e ".[test]"
 
 ### Level 1: Verify published numbers (~30 seconds)
 
-Confirms that all 64 numbers cited in the manuscript match the pre-computed
-result files shipped with the repository.
+Confirms that all 64 numbers cited in the platform manuscript match the
+pre-computed result files shipped with the repository.
 
 ```bash
 python article/verify_numbers.py
 ```
 
 Expected output: `Verified: 64/64`.
+
+For the transfer-test analysis (P10/P11), which belongs to a separate
+manuscript, `article/report_p10_p11.py` prints every reported number straight
+from `results/p10_model_comparison.json` and
+`results/p11_free_fit_behaviour.json`:
+
+```bash
+python article/report_p10_p11.py results
+```
+
+`article/check_numbers.py` additionally compares each of those numbers against
+the manuscript text and against `article/literature_values.json`, which holds
+every figure taken from another paper together with the verbatim sentence it
+came from. It takes the results directory and the manuscript file as
+arguments; the manuscript is added here when that paper is published.
 
 ### Level 2: Run test suite (~13 minutes)
 
@@ -129,11 +144,21 @@ python experiments/p6_rl.py
 python experiments/p6_ddm_mle_recovery.py     # 5s
 ```
 
-#### Step H. Rebuild and verify numbers
+#### Step H. Run the transfer test (~6 minutes)
+
+Requires the Eckstein 2022 dataset from Step A.
+
+```bash
+python experiments/p10_model_comparison.py    # ~5 min, six models, 112 subjects
+python experiments/p11_free_fit_behaviour.py  # ~2 s, needs P10's output
+```
+
+#### Step I. Rebuild and verify numbers
 
 ```bash
 python article/build_numbers.py
 python article/verify_numbers.py
+python article/report_p10_p11.py results      # every transfer-test number
 ```
 
 ## Repository Structure
@@ -149,6 +174,8 @@ tests/                256 pytest tests
 experiments/          Analysis scripts, each writes to results/
 results/              JSON outputs -- sole source of numbers in the manuscript
 article/              Manuscript, numbers.json (64 entries), verification scripts
+                      biblio.py (citation keys -> AMA numbering), check_numbers.py,
+                      literature_values.json (sourced figures), report_p10_p11.py
 specs/                Module specifications (written before implementation)
 reports/              Progress log, 53 decisions, alternatives, Neuroblox evaluation
 research/             Input literature review (read-only)

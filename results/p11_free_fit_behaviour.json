@@ -1,0 +1,127 @@
+{
+  "supersedes": "p9_free_fit_behaviour.json",
+  "procedure": "simulate the RL module on the Eckstein protocol at calibrated and free-fit parameters; compare win-stay, lose-shift and accuracy with the observed data",
+  "n_subjects": 112,
+  "age_window": [
+    18.0,
+    30.0
+  ],
+  "n_trials": 120,
+  "env": {
+    "mode": "criterion",
+    "p_reward": 0.75,
+    "p_incorrect": 0.0,
+    "criterion_rewards": [
+      7,
+      15
+    ]
+  },
+  "known_protocol_deviations": [
+    "the source rewarded the first correct choice after a switch with certainty; this environment does not",
+    "archive choice sequences run 124-131 trials, the published task length is 120; simulations use 120"
+  ],
+  "fixed": {
+    "tau_m": 2.163,
+    "lam": 0.49
+  },
+  "free_fit_medians_M1": {
+    "alpha": 0.9043000640988217,
+    "beta": 4.445081769895715
+  },
+  "data": {
+    "ws": 0.9531658263514691,
+    "ls": 0.5553352313798091,
+    "acc": 0.7323103827226787,
+    "ws_iqr": [
+      0.9382211538461538,
+      1.0
+    ],
+    "ls_iqr": [
+      0.42597402597402595,
+      0.7071538857436953
+    ],
+    "acc_iqr": [
+      0.6946564885496184,
+      0.7709923664122137
+    ]
+  },
+  "conditions": {
+    "A_calibrated": {
+      "ws": 0.6803139675419071,
+      "ls": 0.4872385129135382,
+      "acc": 0.5832589285714285
+    },
+    "B_freefit_median": {
+      "ws": 0.9796936745543432,
+      "ls": 0.5043078886218912,
+      "acc": 0.7401041666666667
+    },
+    "C_freefit_per_subject": {
+      "ws": 0.9410490834721393,
+      "ls": 0.4984887925292022,
+      "acc": 0.7273809523809524
+    },
+    "D_freefit_per_subject_persistence": {
+      "ws": 0.9363735410918503,
+      "ls": 0.5429740959695443,
+      "acc": 0.7222470238095238
+    },
+    "E_freefit_per_subject_published_structure": {
+      "ws": 0.9458835261548452,
+      "ls": 0.5565722257364134,
+      "acc": 0.7315476190476191
+    }
+  },
+  "inside_observed_iqr": {
+    "A_calibrated": {
+      "ws_in_iqr": false,
+      "ls_in_iqr": true,
+      "acc_in_iqr": false,
+      "n_in_iqr": 1
+    },
+    "B_freefit_median": {
+      "ws_in_iqr": true,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 3
+    },
+    "C_freefit_per_subject": {
+      "ws_in_iqr": true,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 3
+    },
+    "D_freefit_per_subject_persistence": {
+      "ws_in_iqr": false,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 2
+    },
+    "E_freefit_per_subject_published_structure": {
+      "ws_in_iqr": true,
+      "ls_in_iqr": true,
+      "acc_in_iqr": true,
+      "n_in_iqr": 3
+    }
+  },
+  "control_vs_p6": {
+    "note": "calibrated parameters at B=114 and seed 42, matching P6/P9 exactly, so that agreement with P6 is tested independently of the corrected sample",
+    "p6_model": {
+      "ws": 0.6805931462760675,
+      "ls": 0.4927558002285586,
+      "acc": 0.5752923976608186
+    },
+    "p11_control": {
+      "ws": 0.6805931462760675,
+      "ls": 0.4927558002285586,
+      "acc": 0.5752923976608186
+    },
+    "abs_diff": {
+      "ws": 0.0,
+      "ls": 0.0,
+      "acc": 0.0
+    },
+    "reproduces_p6": true
+  },
+  "conclusion": "free-fit parameters reproduce behaviour"
+}
