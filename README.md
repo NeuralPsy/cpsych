@@ -57,6 +57,11 @@ so P16 and P18 repeat the transfer test at lambda = 0 and are the primary
 analysis; the lambda = 0.49 runs (P13-P15, P17) are kept as a sensitivity
 analysis. P15 replaces P12, which stays in the archive.
 
+P19 and P20 test the estimator of the transfer test on synthetic agents whose
+true parameters are known: recovery of each parameter, what each structure
+returns when another generated the data, model recovery, and the bias from a
+wrongly fixed affect term. `article/report_p19_p20.py` prints their numbers.
+
 ### Level 2: Run test suite (~13 minutes)
 
 256 tests covering module contracts, parameter recovery, integrator correctness,
@@ -164,10 +169,12 @@ python experiments/p11_free_fit_behaviour.py  # ~2 s, needs P10's output
 python experiments/p12_calibrated_all_structures.py  # ~5 s, calibrated values under all six structures
 python experiments/p13_bounds_sensitivity.py         # ~5 min, P10 refitted with wider optimiser bounds
 python experiments/p14_free_fit_behaviour_wide.py    # ~2 s, P11 repeated at the P13 fits
-python experiments/p15_calibrated_vs_wide.py            # ~10 s, calibrated values against the P13 fits
-python experiments/p16_split_and_affect_sensitivity.py  # ~10 min, split rule, lambda = 0 refit, missing rows
-python experiments/p17_seed_sensitivity.py              # ~1 min, behaviour over 200 seeds, lambda = 0.49
-python experiments/p18_transfer_lambda0.py              # ~1 min, calibrated values and behaviour at lambda = 0
+python experiments/p15_calibrated_vs_wide.py            # calibrated values against the P13 fits
+python experiments/p16_split_and_affect_sensitivity.py  # split rule, lambda = 0 refit, missing rows
+python experiments/p17_seed_sensitivity.py              # behaviour over 200 seeds, lambda = 0.49
+python experiments/p18_transfer_lambda0.py              # calibrated values and behaviour at lambda = 0
+python experiments/p19_recovery_ml.py                   # recovery on synthetic agents (8064 fits, uses all cores)
+python experiments/p20_fixed_term_bias.py               # the same agents with the affect coupling wrongly fixed
 ```
 
 #### Step I. Rebuild and verify numbers
@@ -178,6 +185,8 @@ python article/verify_numbers.py
 python article/report_p10_p11.py results      # every transfer-test number
 python article/report_p12_p14.py results      # P12-P14: calibrated values, wider bounds
 python article/report_p15_p18.py results      # P15-P18: lambda = 0 (primary), seeds, split rule
+python article/report_p19_p20.py results      # P19-P20: recovery on synthetic agents
+python article/make_figures.py results article/figures   # the three figures
 ```
 
 ## Repository Structure
