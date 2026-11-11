@@ -8,8 +8,8 @@ authors:
     affiliation: "Holon Institute of Technology"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.24121195"
-    description: "Zenodo archive of version 1.3"
+    value: "10.5281/zenodo.24144577"
+    description: "Zenodo archive of version 1.4"
   - type: doi
     value: "10.5281/zenodo.24015476"
     description: "All versions; resolves to the latest"

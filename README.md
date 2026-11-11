@@ -237,10 +237,10 @@ the six gates, the module contract, and the parameter classification scheme
 
 If you use this software, please cite:
 
-> Vasilchenko, K. (2026). CPsych: Modular Computational Psychiatry Platform (v1.2).
-> Zenodo. https://doi.org/10.5281/zenodo.24121195
+> Vasilchenko, K. (2026). CPsych: Modular Computational Psychiatry Platform (v1.4).
+> Zenodo. https://doi.org/10.5281/zenodo.24144577
 
-That DOI identifies version 1.2. The DOI for all versions, which always resolves to the latest one, is
+That DOI identifies version 1.4. The DOI for all versions, which always resolves to the latest one, is
 https://doi.org/10.5281/zenodo.24015476.
 
 ## License
